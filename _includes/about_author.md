@@ -1,4 +1,4 @@
-![](https://si0.twimg.com/profile_images/3648201916/81e30bfae79fef3518e39669e29feb26.jpeg)
+![](https://dl.dropboxusercontent.com/u/31114442/images.ellekasai.com/profile.jpeg)
 
 88年七夕生まれの24歳。
 
