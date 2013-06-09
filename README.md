@@ -1,5 +1,5 @@
-# Shinayaka
+# [krizel.ellekasai.com](http://ellekasai.com)
 
-Jekyllのブログテーマです｡[使い方などはWikiをご覧ください](https://github.com/ellekasai/shinayaka/wiki)｡
+The following directories and their contents are copyright Erii Kasai. You may not reuse anything therein without my permission:
 
-![](https://raw.github.com/ellekasai/shinayaka/master/images/screenshot.png)
+* `_posts/`
