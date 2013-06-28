@@ -7,6 +7,7 @@ markdown: redcarpet
 settings:
   num_posts_on_index: 3
   host_name: ellekasai.com
+  comments: true
   optional:
     license: https://github.com/ellekasai/ellekasai.com/blob/gh-pages/README.md
 author:
