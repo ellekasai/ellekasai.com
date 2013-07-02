@@ -9,7 +9,7 @@ layout: post
 
 今回はカラオケ好きの私が最近ハマっている､とあるiPhoneアプリをご紹介しようと思う｡それは「[Sing!](https://itunes.apple.com/jp/app/sing!-join-global-karaoke/id509993510)」だ｡
 
-このアプリは**世界中のユーザーとカラオケができる**のが特徴だ｡音楽ゲームアプリ製作が専門の米国企業・[Smlue](http://www.smule.com/about)が運営しており､オフィスはPalo AltoやSan Franciscoにある｡私が滞在しているMenlo Parkの目と鼻の先だ｡
+このアプリは**世界中のユーザーとカラオケができる**のが特徴だ｡音楽ゲームアプリ製作が専門の米国企業・[Smule](http://www.smule.com/about)が運営しており､オフィスはPalo AltoやSan Franciscoにある｡私が滞在しているMenlo Parkの目と鼻の先だ｡
 
 さて､動画をご覧になるとどんなアプリなのかわかりやすいのだが､このアプリの主な楽しみ方は下記の3つだ｡
 
@@ -94,11 +94,14 @@ layout: post
 
 ![](https://dl.dropboxusercontent.com/u/31114442/images.ellekasai.com/upload%EF%BC%BF3_.png)
 
-参加したいOpen Callが見つかったら､詳細画面右上の**JOIN**をタップする｡
+参加したいOpen Callが見つかったら､**イヤホンをiPhoneに取り付けてから**詳細画面右上の**JOIN**をタップする｡こうすることで､自分の声以外の音が入りにくくなるからだ｡
 
 ![](https://dl.dropboxusercontent.com/u/31114442/images.ellekasai.com/upload__4_.png)
 
-相手の投稿した歌が流れ始めるので､上の画像のように自分にスポットライトが当たっている時にタイミング良く歌おう｡
+相手の投稿した歌が流れ始めるので､上の画像のように自分にスポットライトが当たっている時にタイミング良く歌おう｡「Sing!」は歌い方にコツがあり､初心者だと声が小さく録音されてしまうことがある｡そこで歌う時は下を参考にしてみてほしい｡
+
+* **付属のイヤホンを使用している場合**は､イヤホン自体に音量調整用のボタンがあるはずだ｡裏にマイクがあるので､そこに口を近づけて歌うと声が大きくなる｡
+* **付属のイヤホンを使用していない場合**は､電話する時と同じようにiPhoneの下側から音を拾うようになっている｡iPhoneの下側を少し口に近づけて歌うと声が大きくなる｡
 
 ![](https://dl.dropboxusercontent.com/u/31114442/images.ellekasai.com/Photo_Jun_27__7_13_50_PM.png)
 
