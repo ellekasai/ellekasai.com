@@ -1,5 +1,5 @@
 ---
-title:「Sing!」の使い方
+title: 「Sing!」の使い方
 layout: post
 ---
 
