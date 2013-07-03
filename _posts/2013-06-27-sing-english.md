@@ -19,7 +19,7 @@ layout: post
 
 洋楽のみであることや､日本人ユーザーがまだ少ないのが欠点だ｡しかし後に書くが､英語が苦手でも気負う必要は全くない｡今回は**初心者向けに「Sing!」の基本的な使い方について書く**ので､「この機能についてもう少し詳しく解説してほしい」という方がいたら､記事の下にあるコメント欄で気軽にきいていただきたい｡
 
-<a href="https://itunes.apple.com/jp/app/sing!-join-global-karaoke/id509993510" target="_blank">Sing!をダウンロードする</a>
+<a href="http://bit.ly/1cP3uc8" target="_blank">Sing!をダウンロードする</a>
 
 ---
 
@@ -123,7 +123,7 @@ layout: post
 
 私が初めてデュエットしたのは､とある韓国系アメリカ人の女の子だった｡
 
-<a href="http://www.smule.com/p/85819410_8893724" target="_blank">「Call Me Maybe」 by 21BoomBoxEli_1U & Krizel77</a>
+<a href="http://bit.ly/15eQbBb" target="_blank">「Call Me Maybe」 by 21BoomBoxEli_1U & Krizel77</a>
 
 そのコとはその後もやり取りが続いているのだが､先日私がまた投稿した時にこんなコメントをもらった｡
 
