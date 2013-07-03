@@ -135,7 +135,7 @@ layout: post
 
 洋楽好きな人や､世界中に友達をつくりたい人はぜひ使ってみてほしい｡
 
-<a href="https://itunes.apple.com/jp/app/sing!-join-global-karaoke/id509993510" target="_blank">Sing!をダウンロードする</a>
+<a href="http://bit.ly/1cP3uc8" target="_blank">Sing!をダウンロードする</a>
 
 
 
