@@ -50,4 +50,4 @@ layout: post
 
 ---
 
-訳注：冒頭にも述べたように､この記事はJustin Jackson氏が書いた[この記事](http://justinjackson.ca/words.html)を和訳したものだ。できるだけ多くの人に読んでほしいと思い、[著者の承諾](https://twitter.com/mijustin/status/352491698733064192)を得てここに転載した。彼のサイトでも、[私の日本語訳](http://justinjackson.ca/words_japan.html)が掲載されている。
+訳注：できるだけ多くの人に読んでほしいと思い、[著者の承諾](https://twitter.com/mijustin/status/352491698733064192)を得てここに転載した。彼のサイトでも、[私の日本語訳](http://justinjackson.ca/words_japan.html)が掲載されている。
