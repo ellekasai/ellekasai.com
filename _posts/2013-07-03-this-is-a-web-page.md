@@ -4,7 +4,7 @@ layout: post
 ---
 
 ![](https://dl.dropboxusercontent.com/u/31114442/images.ellekasai.com/Words.png)
-上の画像は著者が書いた<a href="http://justinjackson.ca/words.html" target="_blank">原文のページ</a>のスクリーンショットだ｡とてもシンプルなページである｡
+<small>上の画像は著者が書いた<a href="http://justinjackson.ca/words.html" target="_blank">原文のページ</a>のスクリーンショットだ｡とてもシンプルなページである｡</small>
 
 ---
 
