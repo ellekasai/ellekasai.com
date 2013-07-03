@@ -3,8 +3,7 @@ title: 言葉からウェブデザインを始めよう(翻訳)
 layout: post
 ---
 
-![](https://dl.dropboxusercontent.com/u/31114442/images.ellekasai.com/Words.png)
-<small>上の画像は著者が書いた<a href="http://justinjackson.ca/words.html" target="_blank">原文のページ</a>のスクリーンショットだ｡とてもシンプルなページである｡</small>
+元の記事はJustin Jackson氏が書いた<a href="http://justinjackson.ca/words.html" target="_blank">こちらの記事だ</a>｡原文はとてもシンプルなページに載せられていることがわかるだろう｡一度ご覧になってから下記の和訳を読み進めることをおすすめする｡
 
 ---
 
@@ -51,4 +50,4 @@ layout: post
 
 ---
 
-訳注：この記事は、Justin Jackson氏が書いた[この記事](http://justinjackson.ca/words.html)を和訳したものだ。できるだけ多くの人に読んでほしいと思い、[著者の承諾](https://twitter.com/mijustin/status/352491698733064192)を得てここに転載している。彼のサイトでも、[私の日本語訳](http://justinjackson.ca/words_japan.html)が掲載されている。
+訳注：冒頭にも述べたように､この記事はJustin Jackson氏が書いた[この記事](http://justinjackson.ca/words.html)を和訳したものだ。できるだけ多くの人に読んでほしいと思い、[著者の承諾](https://twitter.com/mijustin/status/352491698733064192)を得てここに転載した。彼のサイトでも、[私の日本語訳](http://justinjackson.ca/words_japan.html)が掲載されている。
