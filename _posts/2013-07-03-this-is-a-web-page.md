@@ -46,8 +46,6 @@ layout: post
 [@mijustin](https://twitter.com/mijustin)<br>
 [On Google+](https://plus.google.com/115056462967470089501)
 
-[English version](http://justinjackson.ca/words.html)
-
 ---
 
-訳注：できるだけ多くの人に読んでほしいと思い、[著者の承諾](https://twitter.com/mijustin/status/352491698733064192)を得てここに転載した。彼のサイトでも、[私の日本語訳](http://justinjackson.ca/words_japan.html)が掲載されている。
+訳注：できるだけ多くの人に読んでほしいと思い、<a href="https://twitter.com/mijustin/status/352491698733064192" target="_blank">著者の承諾</a>を得てここに転載した。彼のサイトでも、<a href="http://justinjackson.ca/words_japan.html" target="_blank">私の日本語訳</a>が掲載されている。
