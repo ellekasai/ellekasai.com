@@ -11,7 +11,7 @@
     </div>
     <div class="share-buttons">
       <div class="fb-like" data-href="http://{{ site.settings.host_name }}{{ page.url }}" data-send="false" data-layout="button_count" data-width="" data-show-faces="false"></div>
-      <a href="https://twitter.com/share" class="twitter-share-button share-buttons-twitter" data-url="http://{{ site.settings.host_name }}{{ page.url }}" data-text="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" data-via="{{ site.author.twitter }}" data-lang="ja" data-dnt="true">ツイート</a>
+      <a href="https://twitter.com/share" class="twitter-share-button share-buttons-twitter" data-url="http://{{ site.settings.host_name }}{{ page.url }}" data-text="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}" data-via="{{ site.author.twitter }}" data-lang="ja" data-dnt="true" style="margin: 0 0 -7px 10px">ツイート</a>
       {% if current_url == '/index.html' %}
         <a href="{{ page.url }}#comments" class="comment-link">コメント (<div class="fb-comments-count" data-href="http://{{ site.settings.host_name }}{{ page.url }}" style="display: inline;"></div>)</a>
       {% endif %}
