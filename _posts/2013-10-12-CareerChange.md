@@ -1,6 +1,5 @@
 ---
 title: 営業ウーマンが半年でデザイナーに転身した話
-permalink: "posts/CareerChange"
 ---
 
 ![](https://dl.dropboxusercontent.com/u/31114442/images.ellekasai.com/1005277_3276300066160_665545279_n.jpg)

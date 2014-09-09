@@ -1,6 +1,5 @@
 ---
 title: カラオケアプリ「Sing!」で世界中に友達をつくろう
-permalink: "posts/sing-english"
 ---
 
 ## Sing!とは

@@ -1,6 +1,5 @@
 ---
 title: 言葉からウェブデザインを始めよう(翻訳)
-permalink: "posts/this-is-a-web-page"
 ---
 
 元の記事はJustin Jackson氏が書いた<a href="http://justinjackson.ca/words.html" target="_blank">こちらの記事だ</a>｡原文はとてもシンプルなページに載せられていることがわかるだろう｡一度ご覧になってから下記の和訳を読み進めることをおすすめする｡
