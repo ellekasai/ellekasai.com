@@ -9,7 +9,7 @@ First I’d like to talk about our trip in Sweden. We visited Stockholm city and
 
 ## 1st day
 
-We arrived at Arlanda Airport on the evening of September 6th. Then we proceeded to our hotel to checked-in and went sightseeing right away.
+We arrived at Arlanda Airport on the evening of September 6th. Then we proceeded to our hotel to check-in and went sightseeing right away.
 
 ### Sergels torg
 
