@@ -3,7 +3,7 @@ title: "Trip to Europe, Part 1: Stockholm, Sweden"
 ---
 
 
-At the second week of September this year, I traveled in Sweden, Italy, and Germany with my boyfriend for a week. 
+On the second week of September this year, I traveled in Sweden, Italy, and Germany with my boyfriend for a week. 
 
 First I’d like to talk about our trip in Sweden. We visited Stockholm city and stayed there for 2 days. The city has many beautiful architecture and I enjoyed watching them very much. 
 
