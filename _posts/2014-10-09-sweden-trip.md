@@ -9,11 +9,11 @@ First I’d like to talk about our trip in Sweden. We visited Stockholm city and
 
 ## 1st day
 
-We arrived at Arlanda Airport in the evening of September 6th. Then proceeded to our hotel to checked-in and went sightseeing right away.
+We arrived at Arlanda Airport on the evening of September 6th. Then we proceeded to our hotel to checked-in and went sightseeing right away.
 
 ### Sergels torg
 
-Sergels torg is the central part of the city. There is a cultural hall, some museums  and shops around here.
+Sergels torg is the central part of the city. There are some museums and shops around here.
 
 ![](/images/eurotrip-thumb/eurotrip-1.jpg)
 
@@ -21,7 +21,7 @@ Sergels torg is the central part of the city. There is a cultural hall, some mus
 
 ### Riksdag
 
-Riksdag is the national legislature of Sweden. There are bridges connecting it  from the main streets. The views from the bridges is also lovely. Many tourists were taking pictures.
+Riksdag is the national legislature of Sweden. There are bridges connecting it  from the main streets. The view from the bridge was also lovely. Many tourists were taking pictures.
 
 ![](/images/eurotrip-thumb/eurotrip-17.jpg)
 
@@ -29,7 +29,7 @@ Riksdag is the national legislature of Sweden. There are bridges connecting it  
 
 ### Gamla stan
 
-Gamla stan is an old town in Stockholm. In this town, you can find a lot of souvenir shops and restaurants. It is famous to many tourists.
+Gamla stan is an old town in Stockholm. In this town, you can find a lot of souvenir shops and restaurants. It is a popular destination among tourists.
 
 ![](/images/eurotrip-thumb/eurotrip-19.jpg)
 
@@ -37,19 +37,19 @@ Gamla stan is an old town in Stockholm. In this town, you can find a lot of souv
 
 ### Fotografiska
 
-Fotografiska is a museum of photographies. I think the exhibits are fantastic. This museum also has a cafe and the view from there is adorable.
+Fotografiska is a museum of photography. The exhibits were fantastic. This museum also has a cafe and the view from there was adorable.
 
 ![](/images/eurotrip-thumb/eurotrip-21.jpg)
 
 ## 2nd day
 
-We woke up late and had a brunch at an Espresso house. This cafe is one of the biggest coffee chain shop in Sweden.
+We woke up late and had a brunch at Espresso House. This cafe is one of the biggest coffee chains in Sweden.
 
 ![](/images/eurotrip-thumb/eurotrip-22.jpg)
 
 ### Stockholm City Hall
 
-Stockholm City Hall is worth visiting. This is the venue for the Noble Prize Party. I was surprised that there is a room named “Golden Hall” and this room is decorated with real gold.
+Stockholm City Hall is worth visiting. This is the venue for Nobel Prize Party. I was surprised that there is a room named “Golden Hall” which is decorated with real gold.
 
 ![](/images/eurotrip-thumb/eurotrip-4.jpg)
 
@@ -67,7 +67,7 @@ I fell in love with this library. It is not so big, but the view from the entran
 
 ### Vasa Museum
 
-Vasa is a ship made in the 17th century. Sadly, this ship sank on her first voyage. But after refloating it, engineers made repair works. You can see this gorgeous and spectacle ship in this museum.
+Vasa is a ship made in the 17th century. Sadly, this ship sank on her first voyage. But after salvaged, engineers reassembled and reconstructed the ship. You can see this gorgeous and spectacular ship in this museum.
 
 ![](/images/eurotrip-thumb/eurotrip-41.jpg)
 
