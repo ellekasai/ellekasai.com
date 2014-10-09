@@ -21,7 +21,7 @@ Sergels torg is the central part of the city. There are some museums and shops a
 
 ### Riksdag
 
-Riksdag is the national legislature of Sweden. There are bridges connecting it  from the main streets. The view from the bridge was also lovely. Many tourists were taking pictures.
+Riksdag is the national legislature of Sweden. There are bridges connecting it  from the main streets. The view from a bridge was also lovely. Many tourists were taking pictures.
 
 ![](/images/eurotrip-thumb/eurotrip-17.jpg)
 
@@ -67,7 +67,7 @@ I fell in love with this library. It is not so big, but the view from the entran
 
 ### Vasa Museum
 
-Vasa is a ship made in the 17th century. Sadly, this ship sank on her first voyage. But after salvaged, engineers reassembled and reconstructed the ship. You can see this gorgeous and spectacular ship in this museum.
+Vasa is a ship made in the 17th century. Sadly, this ship sank on her first voyage. But after Vasa was salvaged, engineers reassembled and reconstructed the ship. You can see this gorgeous and spectacular ship in this museum.
 
 ![](/images/eurotrip-thumb/eurotrip-41.jpg)
 
@@ -75,11 +75,13 @@ Vasa is a ship made in the 17th century. Sadly, this ship sank on her first voya
 
 ### Skansen
 
-Skansen is an open-air museum. There are historical buildings and traditional Swedish houses. This museum also has a zoo and you can see rare animals like wolves, wild boars and peacocks.
+Skansen is an open-air museum. There are historical buildings and traditional Swedish houses here. This museum also has a zoo and you can see rare animals like wolves, wild boars and peacocks.
 
 ![](/images/eurotrip-thumb/eurotrip-46.jpg)
 
 ![](/images/eurotrip-thumb/eurotrip-45.jpg)
 
 ![](/images/eurotrip-thumb/eurotrip-47.jpg)
+
+<a href="https://www.flickr.com/photos/chibicode/sets/72157647587142756" target="_blank">Photo credit: Shu Uesugi (CC-BY-SA)</a>
 
