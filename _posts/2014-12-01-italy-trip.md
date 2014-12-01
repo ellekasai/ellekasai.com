@@ -44,7 +44,7 @@ title: "Trip to Europe, Part 2: Venice, Italy"
 
 ![](/images/eurotrip-thumb/eurotrip-74.jpg)
 
-### Fruit Stall
+### Fruits Stall
 
 ![](/images/eurotrip-thumb/eurotrip-78.jpg)
 
