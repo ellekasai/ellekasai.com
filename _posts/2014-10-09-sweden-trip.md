@@ -83,6 +83,6 @@ Skansen is an open-air museum. There are historical buildings and traditional Sw
 
 ![](/images/eurotrip-thumb/eurotrip-47.jpg)
 
-Thanks to [@chibicode](https://twitter.com/chibicode) for revising my English.
+Thanks to <a href="https://twitter.com/chibicode" target="_blank">@chibicode</a> for revising my English.
 
 <a href="https://www.flickr.com/photos/chibicode/sets/72157647587142756" target="_blank">Photo credit: Shu Uesugi (CC-BY-SA)</a>
