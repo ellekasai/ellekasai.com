@@ -1,19 +1,183 @@
 ---
+title: About
+redirect_from: "/about"
+layout: page
+hide_sidebar: true
 ---
 
-{% for post in site.posts limit:site.data.theme.num_home_posts %}
-<div class="post-header-home">
-  <h1 class="post-title-home">
-    <a href="{{ post.url | prepend:site.baseurl }}">{{ post.title }}</a>
-  </h1>
-  {% include post-header-home.html %}
+<p><img src="http://cl.ly/image/1U2x3j2A3K3H/ellekasai.jpg" alt="Elle Kasai"></p>
+
+<h2>My Story</h2>
+
+<p>I was born in Phillippines and raised in Kanagawa, Japan. After graduating from Gakushuin Women's College with a Marketing degree in 2012, I started working at a payment startup in Tokyo as a sales associate.</p>
+
+<p>But I've always loved to express myself and be creative, and I wasn't quite satisfied with my job. So after a year, I decided to pursue a completely different career in UI design. I left my job, stayed with my <a href="http://chibicode.com/" target="_blank">boyfriend</a> in Silicon Valley, and <a href="https://medium.com/@chibicode/teaching-someone-to-code-is-partly-a-hardware-problem-fe6a2067d770" target="_blank">learned coding and design from him</a>.</p>
+
+<p>Eventually I came back to Japan, and in Fall 2013, I became a junior designer at <a href="http://www.bizreach.co.jp/" target="_blank">BizReach</a>, a tech startup in Tokyo. I've worked on various projects, including coding the entire frontend of <a href="http://woman.bizreach.jp/" target="_blank">BizReach Woman</a>. During my free time, <a href="/talks">I've taught an online HTML/CSS course and spoke at coding-related events</a>.</p>
+
+<p>When I'm not in front of my computer, I enjoy reading, watching movies, and spending time with my dogs. I was also a model at Ashinari, a Japanese stock photo site. You can view <a href="http://promo.ellekasai.com" target="_blank">my model photos here</a>.</p>
+
+<h2>Moving to Vancouver, Canada</h2>
+
+<p>In Fall 2014, I left my job in Tokyo and moved to Vancouver, Canada for new challenges. I'm currently looking for a full-time or a  part-time design position.</p>
+
+<p>You can say hi at <a href="mailto:elle.kasai@gmail.com">elle.kasai@gmail.com</a> or <a href="http://twitter.com/ellekasai" target="_blank">follow me on Twitter</a>.</p>
+
+<p><a href="https://twitter.com/ellekasai" class="twitter-follow-button" data-show-screen-name="true" data-show-count="true" data-size="large">Follow @ellekasai</a></p>
+
+<p>The more detailed information about my work experience can be found on <a href="https://www.linkedin.com/in/ellekasai" target="_blank">my LinkedIn profile</a>.</p>
+
+<p><a href="https://www.linkedin.com/in/ellekasai" target="_blank" class="btn btn-primary">View My Profile on LinkedIn &rarr;</a></p>
+
+<h2>Open source projects</h2>
+
+<ul>
+  <li><a href="http://ellekasai.github.io/resumecards/" target="_blank">ResumeCards, a Markdown based resume generator</a>.</li>
+  <li><a href="http://ellekasai.github.io/twemoji-awesome/" target="_blank">Twemoji Awesome, like Font Awesome, but for Twitter Emoji</a>.</li>
+  <li><a href="http://ellekasai.github.io/purplecoat.js" target="_blank">Purplecoat.js, Simple Labeled Overlays</a>.</li>
+  <li><a href="http://ellekasai.github.io/shiori" target="_blank">Shiori, a Bootstrap-based Jekyll theme</a>.</li>
+  <li><a href="http://github.com/ellekasai/shinayaka" target="_blank">Shinayaka, my first Jekyll theme</a> (in Japanese).</li>
+</ul>
+
+<h2>Talks</h2>
+<p>
+I began speaking publicly in Winter 2014. Live-coding is my forte. I hope to one day speak at an international design conference such as <a href="http://cssconf.com">CSSConf</a> (I attended the <a href="http://2013.cssconf.com/">inaugural one in 2013</a> and <a href="https://www.flickr.com/photos/chibicode/15252236625/in/set-72157647587142756">CSSConf.eu in 2014</a>).
+</p>
+
+<div class="row">
+  <div class="col-sm-8">
+    <h3 id="talk-3"><strong>Talk 3</strong> / Women Who Code Tokyo #1</h3>
+    <p class="text-muted">July 2014 / Tokyo, in Japanese</p>
+  </div>
 </div>
-<div class="post-excerpt-home">
-  {{ post.excerpt }}
-  <p class="text-right"><a href="{{ post.url | prepend:site.baseurl }}">Continue Reading &rarr;</a></p>
+
+<div class="row row-space-md">
+  <div class="col-sm-6">
+    <p>I was the keynote speaker for the inaugural event of <a href="http://www.meetup.com/Women-Who-Code-Tokyo/events/186267472/">Women Who Code Tokyo</a>. <a href="http://www.womenwhocode.com/">Women Who Code</a> is a global organization inspiring women to excel in technology careers. I talked about how I transitioned my career from a sales associate to a coder. This talk is in Japanese.</p>
+  </div>
+  <div class="col-sm-6">
+    <p class="embed-responsive embed-responsive-16by9">
+      <iframe width="1280" height="720" src="http://www.youtube.com/embed/J_vGbXDAvmQ?rel=0" frameborder="0" allowfullscreen></iframe>
+    </p>
+  </div>
 </div>
-{% endfor %}
-<hr>
-<div class="home-read-more">
-  <a href="{{ "/archive" | prepend:site.baseurl }}" class="btn btn-primary btn-block btn-lg">View All {{ site.posts | size }} Articles →</a>
+
+<div class="row">
+  <div class="col-sm-8">
+    <h3 id="talk-2"><strong>Talk 2</strong> / Introduction to HTML &amp; CSS Sketching</h3>
+    <p class="text-muted">March - April 2014 / Online, in Japanese</p>
+  </div>
 </div>
+
+<div class="row row-space-sm">
+  <div class="col-sm-6">
+    <p>
+      <img src="/images/talks/talk2-1.jpg" alt="Elle Kasai Talk">
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <p>I gave a four-part lecture series on <a href="http://schoo.jp/">Schoo</a> (a <a href="https://www.udemy.com/">Udemy</a> for Japan) about <strong>HTML &amp; CSS Sketching</strong>.</p>
+    <p>Often the fastest way to master HTML and CSS is to replicate existing sites using HTML and CSS. I called this HTML &amp; CSS Sketching and gave live-coding talks on how to sketch a site effectively.</p>
+    <p>My audience was mostly beginning web designers with some knowledge of HTML and CSS. Each lecture had ~500 live viewers on average.</p>
+  </div>
+</div>
+
+<div class="row row-space-sm">
+  <div class="col-sm-6">
+    <p>
+      <img src="/images/talks/talk2-2.jpg" alt="Elle Kasai Talk">
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <p>Each lecture was 90 minutes long. On the first lecture, I sketched a <a href="http://ja.wikipedia.org/wiki/%E6%9F%B4%E7%8A%AC">Wikipedia page</a>. On the remaining three lectures, I sketched a <a href="http://github.com/ellekasai">user page</a> and a <a href="https://github.com/twbs/bootstrap/pull/12406">pull request page</a> on GitHub.</p>
+    <p>Unfortunately, you have to pay to <a href="http://schoo.jp/teacher/336">view my talks</a> on Schoo, and both the site and the talks are in Japanese. However, my code is available on GitHub at: <a href="https://github.com/htmlsketch/sample/tree/master/2-schoo%20class">htmlsketch/sample</a>.</p>
+  </div>
+</div>
+
+<div class="row row-space-sm">
+  <div class="col-sm-6 col-sm-push-6">
+    <p>
+      <img src="/images/talks/talk2-3.jpg" alt="Elle Kasai Talk">
+    </p>
+  </div>
+  <div class="col-sm-6 col-sm-pull-6">
+    <p>On lecture <a href="http://schoo.jp/class/441">#1</a>, I live-coded a <a href="http://ja.wikipedia.org/wiki/%E6%9F%B4%E7%8A%AC">Wikipedia page</a> in 90 minutes.</p>
+    <p>Wikipedia has a simple grid, which allows beginners focus on learning core HTML elements and CSS properties. I also demonstrated the <a href="https://github.com/sergeche/emmet-sublime">Emmet</a> plugin on Sublime Text.</p>
+    <p>The resulting code is open-sourced <a href="https://github.com/htmlsketch/sample/tree/master/2-schoo%20class/part1">here</a>.</p>
+  </div>
+</div>
+
+<div class="row row-space-sm">
+  <div class="col-sm-6 col-sm-push-6">
+    <p>
+      <img src="/images/talks/talk2-4.jpg" alt="Elle Kasai Talk">
+    </p>
+  </div>
+  <div class="col-sm-6 col-sm-pull-6">
+    <p>On lecture <a href="http://schoo.jp/class/442">#2</a>, I live-coded a <a href="https://github.com/ellekasai">user page</a> on GitHub in 90 minutes. On lectures <a href="http://schoo.jp/class/443">#3</a> and <a href="http://schoo.jp/class/444">#4</a>, I live-coded a <a href="https://github.com/twbs/bootstrap/pull/12406">pull request page</a> on GitHub in 180 minutes.</p>
+    <p>I used <a href="http://xscopeapp.com/">xScope</a> to ensure that the colors and measures are accurate. I also used <a href="http://fontawesome.io/">Font Awesome</a> as substitute icons.</p>
+    <p>The resulting code is open-sourced <a href="https://github.com/htmlsketch/sample/tree/master/2-schoo%20class/part2">here</a> and <a href="https://github.com/htmlsketch/sample/tree/master/2-schoo%20class/part4">here</a>.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-8">
+    <h3 id="talk-1"><strong>Talk 1</strong> / HTML &amp; CSS Sketching, on YouTube</h3>
+    <p class="text-muted">January - February 2014 / Online, in Japanese</p>
+  </div>
+</div>
+
+<div class="row row-space-sm">
+  <div class="col-sm-6">
+    <p>
+      <img src="/images/talks/gif/talk1-1.gif" alt="Elle Kasai Talk">
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <p>I recorded tutorial screencasts of HTML &amp; CSS Sketching on YouTube. Here, I taught beginning web designers how to replicate a simple <a href="http://ja.wikipedia.org/wiki/%E6%9F%B4%E7%8A%AC">Wikipedia page</a>.</p>
+    <p>The content director of <a href="http://schoo.jp">Schoo</a> (a <a href="https://www.udemy.com/">Udemy</a> for Japan) stumbled upon my videos and offered me a speaking opportunity, which led to my talk <a href="#talk-2">#2</a>.</p>
+  </div>
+</div>
+
+<div class="row row-space-sm">
+  <div class="col-sm-6">
+    <p class="embed-responsive embed-responsive-16by9">
+      <iframe width="1280" height="720" src="http://www.youtube.com/embed/cMTDwuL1Mlk?rel=0" frameborder="0" allowfullscreen></iframe>
+    </p>
+  </div>
+  <div class="col-sm-6">
+    <p>All of the videos are in Japanese, but hopefully you can nonetheless follow my live-coding ;)</p>
+    <p>My YouTube channel is <a href="https://www.youtube.com/channel/UC13fw9W2AudLn5Cp9EjRqAQ">here</a>. The resulting code from each screencast is open-sourced <a href="https://github.com/htmlsketch/sample/tree/master/1-wikipedia">here</a>.</p>
+  </div>
+</div>
+
+<div class="row row-space-md">
+  <div class="col-sm-3">
+    <p class="embed-responsive embed-responsive-16by9">
+      <iframe width="1280" height="720" src="http://www.youtube.com/embed/038wQNc_j1s?rel=0" frameborder="0" allowfullscreen></iframe>
+    </p>
+  </div>
+  <div class="col-sm-3">
+    <p class="embed-responsive embed-responsive-16by9">
+      <iframe width="1280" height="720" src="http://www.youtube.com/embed/fMiQomHNAd0?rel=0" frameborder="0" allowfullscreen></iframe>
+    </p>
+  </div>
+  <div class="col-sm-3">
+    <p class="embed-responsive embed-responsive-16by9">
+      <iframe width="1280" height="720" src="http://www.youtube.com/embed/LI6LxPrs3V8?rel=0" frameborder="0" allowfullscreen></iframe>
+    </p>
+  </div>
+  <div class="col-sm-3">
+    <p class="embed-responsive embed-responsive-16by9">
+      <iframe width="1280" height="720" src="http://www.youtube.com/embed/Pi_K5wrxb0I?rel=0" frameborder="0" allowfullscreen></iframe>
+    </p>
+  </div>
+</div>
+
+<h2>Thank You for Reading!</h2>
+<p>I write occasionally in Japanese and English. My most popular article was <a href="/posts/this-is-a-web-page/">my Japanese translation</a> of <a href="http://justinjackson.ca/words.html" target="_blank">"This is a Web Page"</a> by Justin Jackson.</p>
+
+<p><a href="/" class="btn btn-primary">Continue to My Blog &rarr;</a></p>
+
+<p>Thanks to <a href="https://twitter.com/chibicode" target="_blank">@chibicode</a> for revising my English.
+</p>

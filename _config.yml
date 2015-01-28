@@ -8,6 +8,7 @@ description: "Elle Kasai's Peronal Blog."
 
 gems:
   - jemoji
+  - jekyll-redirect-from
 exclude:
   - "README.md"
   - "CHANGELOG.md"
