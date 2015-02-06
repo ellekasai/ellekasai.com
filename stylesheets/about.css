@@ -212,6 +212,11 @@
   footer .contact {
     text-align: center;
   }
+  .footer_source {
+    margin-top: 4%;
+    font-size: 1.3rem;
+    color: #99a599;
+  }
   section.bg-story {
     width: 100%;
     padding-bottom: 75%;
