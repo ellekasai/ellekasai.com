@@ -407,6 +407,9 @@
     color: #78817a;
     font-size: 2rem;
   }
+  header .contact p {
+    color: #78817a;
+  }
   header .contact a {
     color: #99a599;
   }
