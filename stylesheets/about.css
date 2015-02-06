@@ -42,7 +42,7 @@
   h1, h2, h3, h4 {
     line-height: 1.2;
   }
-  h1, .contact > p {
+  h1, header .contact > p {
     color: #C6CCC6;
   }
   h2, h3, h4 {
