@@ -114,11 +114,13 @@
     border: 1px solid #727272;
     border-radius: 0.5rem;
     color: #727272;
+    font-family: "Roboto", sans-serif;
     font-size: 1.6rem;
+    font-weight: 400;
   }
   button:hover {
     border-color: #3BAF65;
-    color: #2A7B47;
+    color: #3BAF65;
   }
   @-webkit-keyframes fadeInRight {
     0% {
