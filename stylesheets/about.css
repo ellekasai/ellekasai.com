@@ -131,23 +131,23 @@
     }
   }
   .header_inner {
-    padding: 10%;
     background-color: rgba(1, 1, 1, 0.7);
+    padding: 10%;
     box-sizing: border-box;
   }
   .row:before,
   .row:after,
   .col-lg_images:before,
   .col-lg_images:after,
-  .bg-story:before,
-  .bg-story:after {
+  .bg-story_inner:before,
+  .bg-story_inner:after {
     content:"";
     display:block;
     overflow:hidden;
   }
   .row:after,
   .col-lg_images:after,
-  .bg-story:after {
+  .bg-story_inner:after {
     clear:both;
   }
   .col {
@@ -356,8 +356,8 @@
     margin-bottom: 2%;
   }
   .header_inner {
-    padding: 8% 10%;
     background: none;
+    padding: 8% 10%;
   }
   .row {
     margin: -3% 0 0 -3.3%;
@@ -419,7 +419,7 @@
     color: #99a599;
   }
   section.bg-story {
-    background: url("/images/about/sales.jpg") no-repeat center center;
+    background: url("/images/about/sales.jpg") no-repeat center 30%;
     background-size: cover;
   }
   .bg-story.bg-none {
@@ -427,12 +427,39 @@
     background-size: cover;
     padding: 5% 0;
   }
-  .bg-story_inner {
+  .bg-story_content {
     float: right;
-    width: 40%;
-    margin-right: 10%;
+    width: 50%;
+    margin-right: 3%;
   }
   .story_img {
     display: none;
+  }
+}
+
+@media screen and (min-width: 135em) {
+  header {
+    background-position: right 30%;
+  }
+  .header_inner {
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 8% 0;
+  }
+  .header_inner_content {
+    max-width: 60rem;
+  }
+  section,
+  footer .contact {
+    max-width: 70rem;
+  }
+  section.bg-story {
+    max-width: 100%;
+  }
+  .bg-story_inner {
+    max-width: 70rem;
+  }
+  .hello {
+    max-width: 42rem;
   }
 }
