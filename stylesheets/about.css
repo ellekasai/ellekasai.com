@@ -442,24 +442,21 @@
     background-position: right 30%;
   }
   .header_inner {
-    max-width: 70rem;
+    max-width: 115rem;
     margin: 0 auto;
     padding: 8% 0;
   }
-  .header_inner_content {
-    max-width: 60rem;
-  }
   section,
   footer .contact {
-    max-width: 70rem;
+    max-width: 115rem;
   }
   section.bg-story {
     max-width: 100%;
   }
   .bg-story_inner {
-    max-width: 70rem;
+    max-width: 115rem;
   }
   .hello {
-    max-width: 42rem;
+    max-width: 60rem;
   }
 }
