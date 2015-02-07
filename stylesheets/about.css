@@ -85,8 +85,8 @@
     text-align: center;
   }
   ul {
-    font-family: 'Roboto Slab', serif;
     padding-left: 7%;
+    font-family: 'Roboto Slab', serif;
   }
   li + li {
     margin-top: 3%;
@@ -311,6 +311,9 @@
   section.bg-story {
     padding-bottom: 60%;
   }
+  .hello h2 {
+    margin-bottom: 4%;
+  }
   .contact > p {
     font-size: 1.8rem;
   }
@@ -319,9 +322,6 @@
   }
   header .contact > ul {
     text-align: left;
-  }
-  .hello h2 {
-    margin-bottom: 4%;
   }
 }
 
@@ -356,8 +356,8 @@
     margin-bottom: 2%;
   }
   .header_inner {
-    background: none;
     padding: 8% 10%;
+    background: none;
   }
   .row {
     margin: -3% 0 0 -3.3%;
