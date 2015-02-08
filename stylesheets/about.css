@@ -4,247 +4,242 @@
   For Mobile
 ———————————–———————————–*/
 
-@media screen and (min-width: 20em) {
-  html {
-    font-size: 62.5%;
+html {
+  font-size: 62.5%;
+}
+body {
+  color: #727272;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+header {
+  background: url("/images/about/ellekasai-mobile.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+main,
+footer,
+section.bg-story {
+  padding: 10% 0;
+}
+section,
+footer .contact,
+.bg-story_inner {
+  width: 90%;
+  margin: 0 auto;
+}
+section + section {
+  margin-top: 10%;
+}
+section p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+footer {
+  background-color: #dae2dd;
+}
+h1, h2, h3, h4 {
+  line-height: 1.2;
+}
+h1, h2, h3, h4, .contact > p {
+  color: #78817a;
+}
+h1 > span, h2, h3, h4 {
+  font-weight: 400;
+}
+h1, h2, figure, ul {
+  margin: 0;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 100;
+  letter-spacing: -1px;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  margin: 5% 0 0;
+  font-size: 1.8rem;
+}
+h3 + p {
+  margin: 3% 0 0;
+}
+h4 {
+  margin: 0 0 5%;
+  font-size: 1.6rem;
+}
+iframe {
+  margin: 3% 0 0 0%;
+}
+iframe + p {
+  margin: 0;
+}
+figcaption {
+  margin-top: 5%;
+  color: #99a599;
+  text-align: center;
+}
+ul {
+  padding-left: 7%;
+  font-family: 'Roboto Slab', serif;
+}
+li + li {
+  margin-top: 3%;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+a {
+  color: #3BAF65;
+  text-decoration: none;
+}
+a:hover {
+  color: #2A7B47;
+}
+.btn-wrapper {
+  display: inline-block;
+  width: 50%;
+}
+button {
+  width: 100%;
+  padding: 5% 10%;
+  background-color: rgba(255,255,255,0.2);
+  border: 1px solid #727272;
+  border-radius: 0.5rem;
+  color: #727272;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+button:hover {
+  border-color: #3BAF65;
+  color: #3BAF65;
+}
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(10%, 0, 0);
   }
-  body {
-    color: #727272;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.4rem;
-    line-height: 1.6;
-  }
-  header {
-    background: url("/images/about/ellekasai.jpg") no-repeat top right;
-    background-size: cover;
-  }
-  main,
-  footer,
-  section.bg-story {
-    padding: 10% 0;
-  }
-  section,
-  footer .contact,
-  .bg-story_inner {
-    width: 80%;
-    margin: 0 auto;
-  }
-  section + section {
-    margin-top: 10%;
-  }
-  section p {
-    font-family: 'Roboto Slab', serif;
-    font-weight: 300;
-  }
-  footer {
-    background-color: #dae2dd;
-  }
-  h1, h2, h3, h4 {
-    line-height: 1.2;
-  }
-  h1, header .contact > p {
-    color: #C6CCC6;
-  }
-  h2, h3, h4 {
-    color: #78817a;
-  }
-  h1 > span, h2, h3, h4 {
-    font-weight: 400;
-  }
-  h1, h2, figure, ul {
-    margin: 0;
-  }
-  h1 {
-    font-size: 4rem;
-    font-weight: 100;
-    letter-spacing: -1px;
-  }
-  h2 {
-    font-size: 2.5rem;
-  }
-  h3 {
-    margin: 5% 0 0;
-    font-size: 1.8rem;
-  }
-  h3 + p {
-    margin: 3% 0 0;
-  }
-  h4 {
-    margin: 0 0 5%;
-    font-size: 1.6rem;
-  }
-  iframe {
-    margin: 3% 0 0 0%;
-  }
-  iframe + p {
-    margin: 0;
-  }
-  figcaption {
-    margin-top: 5%;
-    color: #99a599;
-    text-align: center;
-  }
-  ul {
-    padding-left: 7%;
-    font-family: 'Roboto Slab', serif;
-  }
-  li + li {
-    margin-top: 3%;
-  }
-  img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  a {
-    color: #3BAF65;
-    text-decoration: none;
-  }
-  a:hover {
-    color: #2A7B47;
-  }
-  .btn-wrapper {
-    display: inline-block;
-    width: 50%;
-  }
-  button {
-    width: 100%;
-    padding: 5% 10%;
-    background-color: rgba(255,255,255,0.2);
-    border: 1px solid #727272;
-    border-radius: 0.5rem;
-    color: #727272;
-    font-family: "Roboto", sans-serif;
-    font-size: 1.6rem;
-    font-weight: 400;
-  }
-  button:hover {
-    border-color: #3BAF65;
-    color: #3BAF65;
-  }
-  @-webkit-keyframes fadeInRight {
-    0% {
-      opacity: 0;
-      transform: translate3d(10%, 0, 0);
-    }
-    100% {
-      opacity: 1;
-      transform: none;
-    }
-  }
-  .header_inner {
-    background-color: rgba(1, 1, 1, 0.7);
-    padding: 10%;
-    box-sizing: border-box;
-  }
-  .row:before,
-  .row:after,
-  .col-lg_images:before,
-  .col-lg_images:after,
-  .bg-story_inner:before,
-  .bg-story_inner:after {
-    content:"";
-    display:block;
-    overflow:hidden;
-  }
-  .row:after,
-  .col-lg_images:after,
-  .bg-story_inner:after {
-    clear:both;
-  }
-  .col {
-    float: left;
-  }
-  .col + .col {
-    margin-top: 15%;
-  }
-  .col-lg h3 {
-    margin: 7% 0 0;
-  }
-  .col-lg ul {
-    margin-top: 5%;
-  }
-  .col {
-    float: left;
-    width: 100%;
-  }
-  .col-sm > a {
-    display: block;
-  }
-  .col-sm p > span {
-    color: #aaa;
-  }
-  .col-sm_images img {
-    width: 50%;
-    margin: 0 auto;
-    border-radius: 50%;
-  }
-  .col-sm_images + .col-sm_images {
-    margin-top: 10%;
-  }
-  .contact {
-    margin-top: 10%;
-  }
-  .contact ul {
-    padding: 0;
-    text-align: center;
-  }
-  .contact > p {
-    margin: 0;
-    font-size: 1.4rem;
-  }
-  .contact li {
-    display: inline-block;
-  }
-  .contact li + li {
-    margin-left: 1.5rem;
-  }
-  .contact a {
-    color: #99a599;
-  }
-  .contact a:hover {
-    color: #737B73;
-  }
-  .contact i {
-    font-size: 3rem;
-  }
-  header .contact a {
-    color: #AAB9AD;
-  }
-  footer .contact {
-    text-align: center;
-  }
-  .contact .footer_source {
-    margin-top: 4%;
-    font-size: 1.3rem;
-    color: #99a599;
-  }
-  section.bg-story {
-    width: 100%;
-    padding-bottom: 75%;
-    background: url("/images/about/sales-white.jpg") no-repeat bottom center;
-    background-size: cover;
-  }
-  #js-after {
-    display: none;
-  }
-  .bg-story.bg-none {
-    background: none;
-    padding: 10% 0 0;
-  }
-  .story_img {
-    margin: 10% 0 0;
-    text-align: center;
-  }
-  .story_img img {
-    display: inline;
-    width: 50%;
-    border-radius: 50%;
-  }
-  .hello h2 {
-    margin-bottom: 5%;
+  100% {
+    opacity: 1;
+    transform: none;
   }
 }
+.header_inner {
+  padding: 10% 5% 85%;
+  box-sizing: border-box;
+}
+.row:before,
+.row:after,
+.col-lg_images:before,
+.col-lg_images:after,
+.bg-story_inner:before,
+.bg-story_inner:after {
+  content:"";
+  display:block;
+  overflow:hidden;
+}
+.row:after,
+.col-lg_images:after,
+.bg-story_inner:after {
+  clear:both;
+}
+.col {
+  float: left;
+}
+.col + .col {
+  margin-top: 15%;
+}
+.col-lg h3 {
+  margin: 7% 0 0;
+}
+.col-lg ul {
+  margin-top: 5%;
+}
+.col {
+  float: left;
+  width: 100%;
+}
+.col-sm > a {
+  display: block;
+}
+.col-sm p > span {
+  color: #aaa;
+}
+.col-sm_images img {
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.col-sm_images + .col-sm_images {
+  margin-top: 10%;
+}
+.contact {
+  margin-top: 10%;
+}
+.contact ul {
+  padding: 0;
+  text-align: center;
+}
+.contact > p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.contact li {
+  display: inline-block;
+}
+.contact li + li {
+  margin-left: 1.5rem;
+}
+.contact a {
+  color: #99a599;
+}
+.contact a:hover {
+  color: #737B73;
+}
+.contact i {
+  font-size: 3rem;
+}
+header .contact a {
+  color: #99a599;
+}
+footer .contact {
+  text-align: center;
+}
+.contact .footer_source {
+  margin-top: 4%;
+  font-size: 1.3rem;
+  color: #99a599;
+}
+section.bg-story {
+  width: 100%;
+  padding-bottom: 75%;
+  background: url("/images/about/sales-white.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+#js-after {
+  display: none;
+}
+.bg-story.bg-none {
+  background: none;
+  padding: 10% 0 0;
+}
+.story_img {
+  margin: 10% 0 0;
+  text-align: center;
+}
+.story_img img {
+  display: inline;
+  width: 50%;
+  border-radius: 50%;
+}
+.hello h2 {
+  margin-bottom: 5%;
+}
+
 
 /*———————————–———————————–
   For Tablet device
@@ -253,6 +248,10 @@
 @media screen and (min-width: 46.8em) {
   body {
     font-size: 1.8rem;
+  }
+  .header_inner {
+    padding: 10% 10% 65%;
+    box-sizing: border-box;
   }
   h2 {
     font-size: 3.5rem;
@@ -334,6 +333,10 @@
   body {
     font-size: 1.6rem;
   }
+  header {
+    background: url("/images/about/ellekasai.jpg") no-repeat top right;
+    background-size: cover;
+  }
   main,
   footer,
   section.bg-story {
@@ -358,7 +361,6 @@
   }
   .header_inner {
     padding: 8% 10%;
-    background: none;
   }
   .row {
     margin: -3% 0 0 -3.3%;
@@ -415,9 +417,6 @@
   }
   header .contact p {
     color: #78817a;
-  }
-  header .contact a {
-    color: #99a599;
   }
   section.bg-story {
     background: url("/images/about/sales.jpg") no-repeat center 30%;
