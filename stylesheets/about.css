@@ -249,6 +249,11 @@ section.bg-story {
   body {
     font-size: 1.8rem;
   }
+  section,
+  footer .contact,
+  .bg-story_inner {
+    width: 80%;
+  }
   .header_inner {
     padding: 10% 10% 65%;
     box-sizing: border-box;
@@ -310,6 +315,14 @@ section.bg-story {
   }
   section.bg-story {
     padding-bottom: 60%;
+  }
+  .bg-story .row,
+  .hello .row {
+    margin-left: 0;
+  }
+  .bg-story .col,
+  .hello .col-lg {
+    margin-left: 0;
   }
   .hello h2 {
     margin-bottom: 4%;
