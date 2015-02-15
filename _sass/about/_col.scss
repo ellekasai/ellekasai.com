@@ -29,12 +29,20 @@
   @include md-and-up {
     margin-left: 5%;
   }
+
+  @include lg-and-up {
+    margin: 5% 0 0 3.3%;
+  }
 }
 .col + .col {
   margin-top: 15%;
 
   @include md-and-up {
     margin-top: 7%;
+  }
+
+  @include lg-and-up {
+    margin-top: 5%;
   }
 }
 .col-lg h3 {
@@ -51,12 +59,32 @@
       width: 95%;
       min-height: 100%;
     }
+
     &:nth-child(4),
     &:nth-child(8) {
       clear: both;
     }
+
     > a:hover img {
       opacity: 0.6;
+    }
+  }
+
+  @include lg-and-up {
+    width: 30%;
+
+    &.col-intro {
+      width: 30%;
+      margin-top: 3%;
+    }
+
+    &:nth-child(4),
+    &:nth-child(7) {
+      clear: both;
+    }
+
+    &:nth-child(8) {
+      clear: none;
     }
   }
 }
@@ -73,6 +101,10 @@
 
   @include md-and-up {
     width: 70%;
+  }
+
+  @include lg-and-up {
+    width: 80%;
   }
 }
 .col-sm_images + .col-sm_images {

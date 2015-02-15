@@ -21,20 +21,6 @@
 ———————————–———————————–*/
 
 @include md-and-up {
-  .col-sm.col-intro {
-    width: 95%;
-    min-height: 100%;
-  }
-  .col-sm {
-    width: 45%;
-  }
-  .col-sm:nth-child(4),
-  .col-sm:nth-child(8) {
-    clear: both;
-  }
-  .col-sm > a:hover img {
-    opacity: 0.6;
-  }
   .col-sm_images {
     width: 28%;
     margin-top: 5%;
@@ -51,12 +37,6 @@
   .hello .col-lg {
     margin-left: 0;
   }
-  .contact > p {
-    font-size: 1.8rem;
-  }
-  .contact i {
-    font-size: 4rem;
-  }
   header .contact > ul {
     text-align: left;
   }
@@ -67,26 +47,6 @@
 ———————————–———————————–*/
 
 @include lg-and-up {
-  .col {
-    margin: 5% 0 0 3.3%;
-  }
-  .col + .col {
-    margin-top: 5%;
-  }
-  .col-sm,
-  .col-sm.col-intro {
-    width: 30%;
-  }
-  .col-sm:nth-child(4),
-  .col-sm:nth-child(7) {
-    clear: both;
-  }
-  .col-sm:nth-child(8) {
-    clear: none;
-  }
-  .col-sm.col-intro {
-    margin-top: 3%;
-  }
   .hello {
     width: 46%;
   }
@@ -106,9 +66,6 @@
     clear: none;
     width: 16%;
     margin: 8% 0 0 3.8%;
-  }
-  .col-sm_images img {
-    width: 80%;
   }
   .contact {
     width: 60%;
