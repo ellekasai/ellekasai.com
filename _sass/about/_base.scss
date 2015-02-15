@@ -1,49 +1,41 @@
 html {
-  font-size: 62.5%;
+  font-size: $font-size-base;
+  @include md-and-up {
+    font-size: $font-size-base-md-up;
+  }
 }
+
 body {
   color: #727272;
   font-family: "Roboto", sans-serif;
-  font-size: 1.4rem;
+  font-size: $font-size-body;
   line-height: 1.6;
-
-  @include md-and-up {
-    font-size: 1.8rem;
-  }
-
-  @include lg-and-up {
-    font-size: 1.6rem;
-  }
 }
-h1, h2, h3, h4 {
+
+h1, h2, h3 {
   line-height: 1.2;
 }
-h1, h2, h3, h4, .contact > p {
+h1, h2, h3, .contact > p {
   color: #78817a;
 }
-h1 > span, h2, h3, h4 {
+h1 > span, h2, h3 {
   font-weight: 400;
 }
 h1, h2, figure, ul {
   margin: 0;
 }
 h1 {
-  font-size: 4rem;
+  font-size: $font-size-h1;
   font-weight: 100;
   letter-spacing: -1px;
 
   @include lg-and-up {
     width: 60%;
     color: #78817a;
-    font-size: 6rem;
   }
 }
 h2 {
-  font-size: 2.5rem;
-
-  @include md-and-up {
-    font-size: 3.5rem;
-  }
+  font-size: $font-size-h2;
 
   @include lg-and-up {
     margin-bottom: 2%;
@@ -51,26 +43,10 @@ h2 {
 }
 h3 {
   margin: 5% 0 0;
-  font-size: 1.8rem;
-
-  @include md-and-up {
-    font-size: 2rem;
-  }
+  font-size: $font-size-h3;
 }
 h3 + p {
   margin: 3% 0 0;
-}
-h4 {
-  margin: 0 0 5%;
-  font-size: 1.6rem;
-
-  @include md-and-up {
-    font-size: 2.5rem;
-  }
-
-  @include lg-and-up {
-    margin-bottom: 2%;
-  }
 }
 iframe {
   margin: 3% 0 0 0%;

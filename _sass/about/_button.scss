@@ -14,12 +14,8 @@ button {
   border-radius: 0.5rem;
   color: #727272;
   font-family: "Roboto", sans-serif;
-  font-size: 1.6rem;
+  font-size: $font-size-body;
   font-weight: 400;
-
-  @include md-and-up {
-    font-size: 1.8rem;
-  }
 }
 button:hover {
   border-color: #3BAF65;
