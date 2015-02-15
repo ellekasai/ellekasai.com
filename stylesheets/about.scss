@@ -7,6 +7,8 @@
   For Mobile
 ———————————–———————————–*/
 
+@import "about/variables";
+@import "about/mixins";
 @import "about/base";
 @import "about/layout";
 @import "about/button";
@@ -18,7 +20,7 @@
   For Tablet device
 ———————————–———————————–*/
 
-@media screen and (min-width: 46.8em) {
+@include md-and-up {
   body {
     font-size: 1.8rem;
   }
@@ -115,7 +117,7 @@
   For Desktop
 ———————————–———————————–*/
 
-@media screen and (min-width: 73em) {
+@include lg-and-up {
   body {
     font-size: 1.6rem;
   }
@@ -223,7 +225,7 @@
   }
 }
 
-@media screen and (min-width: 135em) {
+@include xl-and-up {
   header {
     background-position: right 30%;
   }
