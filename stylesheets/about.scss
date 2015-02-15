@@ -21,15 +21,6 @@
 ———————————–———————————–*/
 
 @include md-and-up {
-  section,
-  footer .contact,
-  .bg-story_inner {
-    width: 80%;
-  }
-  .header_inner {
-    padding: 10% 10% 65%;
-    box-sizing: border-box;
-  }
   button {
     font-size: 1.8rem;
   }
@@ -73,9 +64,6 @@
   .bg-story_inner > .row > .col {
     margin-left: 0;
   }
-  section.bg-story {
-    padding-bottom: 60%;
-  }
   .bg-story .row,
   .hello .row {
     margin-left: 0;
@@ -83,9 +71,6 @@
   .bg-story .col,
   .hello .col-lg {
     margin-left: 0;
-  }
-  .hello h2 {
-    margin-bottom: 4%;
   }
   .contact > p {
     font-size: 1.8rem;
@@ -103,10 +88,6 @@
 ———————————–———————————–*/
 
 @include lg-and-up {
-  header {
-    background: url("/images/about/ellekasai.jpg") no-repeat top right;
-    background-size: cover;
-  }
   main,
   footer,
   section.bg-story {

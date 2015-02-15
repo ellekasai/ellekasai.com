@@ -1,6 +1,11 @@
 header {
   background: url("/images/about/ellekasai-mobile.jpg") no-repeat bottom center;
   background-size: cover;
+
+  @include lg-and-up {
+    background: url("/images/about/ellekasai.jpg") no-repeat top right;
+    background-size: cover;
+  }
 }
 main,
 footer,
@@ -12,6 +17,10 @@ footer .contact,
 .bg-story_inner {
   width: 90%;
   margin: 0 auto;
+
+  @include md-and-up {
+    width: 80%;
+  }
 }
 section + section {
   margin-top: 10%;
@@ -26,12 +35,20 @@ footer {
 .header_inner {
   padding: 10% 5% 85%;
   box-sizing: border-box;
+
+  @include md-and-up {
+    padding: 10% 10% 65%;
+  }
 }
 section.bg-story {
   width: 100%;
   padding-bottom: 75%;
   background: url("/images/about/sales-white.jpg") no-repeat bottom center;
   background-size: cover;
+
+  @include md-and-up {
+    padding-bottom: 60%;
+  }
 }
 #js-after {
   display: none;
@@ -51,4 +68,8 @@ section.bg-story {
 }
 .hello h2 {
   margin-bottom: 5%;
+
+  @include md-and-up {
+    margin-bottom: 4%;
+  }
 }
