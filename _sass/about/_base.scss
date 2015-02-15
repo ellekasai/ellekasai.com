@@ -6,6 +6,10 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   line-height: 1.6;
+
+  @include md-and-up {
+    font-size: 1.8rem;
+  }
 }
 h1, h2, h3, h4 {
   line-height: 1.2;
@@ -26,10 +30,18 @@ h1 {
 }
 h2 {
   font-size: 2.5rem;
+
+  @include md-and-up {
+    font-size: 3.5rem;
+  }
 }
 h3 {
   margin: 5% 0 0;
   font-size: 1.8rem;
+
+  @include md-and-up {
+    font-size: 2rem;
+  }
 }
 h3 + p {
   margin: 3% 0 0;
@@ -37,6 +49,10 @@ h3 + p {
 h4 {
   margin: 0 0 5%;
   font-size: 1.6rem;
+
+  @include md-and-up {
+    font-size: 2.5rem;
+  }
 }
 iframe {
   margin: 3% 0 0 0%;
@@ -52,6 +68,10 @@ figcaption {
 ul {
   padding-left: 7%;
   font-family: 'Roboto Slab', serif;
+
+  @include md-and-up {
+    padding-left: 3%;
+  }
 }
 li + li {
   margin-top: 3%;
