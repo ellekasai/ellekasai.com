@@ -6,6 +6,10 @@ header {
     background: url("/images/about/ellekasai.jpg") no-repeat top right;
     background-size: cover;
   }
+
+  @include xl-and-up {
+    background-position: right 30%;
+  }
 }
 main,
 footer {
@@ -23,6 +27,10 @@ footer .contact,
 
   @include md-and-up {
     width: 80%;
+  }
+
+  @include xl-and-up {
+    max-width: 115rem;
   }
 }
 section + section {
@@ -50,6 +58,12 @@ footer {
   @include lg-and-up {
     padding: 8% 10%;
   }
+
+  @include xl-and-up {
+    max-width: 115rem;
+    margin: 0 auto;
+    padding: 8% 0;
+  }
 }
 section.bg-story {
   width: 100%;
@@ -66,6 +80,10 @@ section.bg-story {
     padding: 5% 0;
     background: url("/images/about/sales.jpg") no-repeat center 30%;
     background-size: cover;
+  }
+
+  @include xl-and-up {
+    max-width: 100%;
   }
 }
 #js-after {

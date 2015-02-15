@@ -152,24 +152,6 @@
 }
 
 @include xl-and-up {
-  header {
-    background-position: right 30%;
-  }
-  .header_inner {
-    max-width: 115rem;
-    margin: 0 auto;
-    padding: 8% 0;
-  }
-  section,
-  footer .contact {
-    max-width: 115rem;
-  }
-  section.bg-story {
-    max-width: 100%;
-  }
-  .bg-story_inner {
-    max-width: 115rem;
-  }
   .hello {
     max-width: 60rem;
   }
