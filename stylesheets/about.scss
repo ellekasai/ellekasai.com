@@ -103,9 +103,6 @@
 ———————————–———————————–*/
 
 @include lg-and-up {
-  body {
-    font-size: 1.6rem;
-  }
   header {
     background: url("/images/about/ellekasai.jpg") no-repeat top right;
     background-size: cover;
@@ -117,20 +114,6 @@
   }
   section + section {
     margin-top: 5%;
-  }
-  h1 {
-    width: 60%;
-    color: #78817a;
-    font-size: 6rem;
-  }
-  h2 {
-    margin-bottom: 2%;
-  }
-  h3 {
-    font-size: 2rem;
-  }
-  h4 {
-    margin-bottom: 2%;
   }
   .header_inner {
     padding: 8% 10%;

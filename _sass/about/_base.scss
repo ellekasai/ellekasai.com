@@ -10,6 +10,10 @@ body {
   @include md-and-up {
     font-size: 1.8rem;
   }
+
+  @include lg-and-up {
+    font-size: 1.6rem;
+  }
 }
 h1, h2, h3, h4 {
   line-height: 1.2;
@@ -27,12 +31,22 @@ h1 {
   font-size: 4rem;
   font-weight: 100;
   letter-spacing: -1px;
+
+  @include lg-and-up {
+    width: 60%;
+    color: #78817a;
+    font-size: 6rem;
+  }
 }
 h2 {
   font-size: 2.5rem;
 
   @include md-and-up {
     font-size: 3.5rem;
+  }
+
+  @include lg-and-up {
+    margin-bottom: 2%;
   }
 }
 h3 {
@@ -52,6 +66,10 @@ h4 {
 
   @include md-and-up {
     font-size: 2.5rem;
+  }
+
+  @include lg-and-up {
+    margin-bottom: 2%;
   }
 }
 iframe {
