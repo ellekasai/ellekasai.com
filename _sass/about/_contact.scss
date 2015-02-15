@@ -6,17 +6,15 @@
   }
 }
 .contact ul {
+  margin: 0;
   padding: 0;
   text-align: center;
-}
-.contact > p {
-  margin: 0;
 }
 .contact li {
   display: inline-block;
 }
 .contact li + li {
-  margin-left: 1.5rem;
+  margin-left: 1em;
 }
 .contact a {
   color: #99a599;
