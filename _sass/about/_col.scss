@@ -43,6 +43,23 @@
 .col-lg ul {
   margin-top: 5%;
 }
+.col-sm {
+  @include md-and-up {
+    width: 45%;
+
+    &.col-intro {
+      width: 95%;
+      min-height: 100%;
+    }
+    &:nth-child(4),
+    &:nth-child(8) {
+      clear: both;
+    }
+    > a:hover img {
+      opacity: 0.6;
+    }
+  }
+}
 .col-sm > a {
   display: block;
 }
