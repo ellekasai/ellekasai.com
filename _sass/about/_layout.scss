@@ -18,6 +18,13 @@ header {
     background-position: right 30%;
   }
 }
+
+.header__title {
+  @include lg-and-up {
+    width: 60%;
+  }
+}
+
 main,
 footer {
   padding: 10% 0;

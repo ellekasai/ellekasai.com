@@ -24,11 +24,6 @@ h1 {
   font-weight: 100;
   letter-spacing: -1px;
 
-  @include lg-and-up {
-    width: 60%;
-    color: #78817a;
-  }
-
   strong {
     font-weight: $font-weight-heading;
   }
