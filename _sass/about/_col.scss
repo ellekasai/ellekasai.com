@@ -1,3 +1,12 @@
+.row {
+  @include md-and-up {
+    margin-left: -5%;
+  }
+
+  @include lg-and-up {
+    margin: -3% 0 0 -3.3%;
+  }
+}
 .row:before,
 .row:after,
 .col-lg_images:before,
@@ -15,19 +24,24 @@
 }
 .col {
   float: left;
+  width: 100%;
+
+  @include md-and-up {
+    margin-left: 5%;
+  }
 }
 .col + .col {
   margin-top: 15%;
+
+  @include md-and-up {
+    margin-top: 7%;
+  }
 }
 .col-lg h3 {
   margin: 7% 0 0;
 }
 .col-lg ul {
   margin-top: 5%;
-}
-.col {
-  float: left;
-  width: 100%;
 }
 .col-sm > a {
   display: block;
@@ -39,7 +53,15 @@
   width: 50%;
   margin: 0 auto;
   border-radius: 50%;
+
+  @include md-and-up {
+    width: 70%;
+  }
 }
 .col-sm_images + .col-sm_images {
   margin-top: 10%;
+
+  @include md-and-up {
+    margin-top: 5%;
+  }
 }

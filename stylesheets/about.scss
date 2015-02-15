@@ -21,21 +21,6 @@
 ———————————–———————————–*/
 
 @include md-and-up {
-  button {
-    font-size: 1.8rem;
-  }
-  .btn-wrapper {
-    width: 25%;
-  }
-  .row {
-    margin-left: -5%;
-  }
-  .col {
-    margin-left: 5%;
-  }
-  .col + .col {
-    margin-top: 7%;
-  }
   .col-sm.col-intro {
     width: 95%;
     min-height: 100%;
@@ -52,12 +37,6 @@
   }
   .col-sm_images {
     width: 28%;
-    margin-top: 5%;
-  }
-  .col-sm_images img {
-    width: 70%;
-  }
-  .col-sm_images + .col-sm_images {
     margin-top: 5%;
   }
   .bg-story_inner > .row,
@@ -88,9 +67,6 @@
 ———————————–———————————–*/
 
 @include lg-and-up {
-  .row {
-    margin: -3% 0 0 -3.3%;
-  }
   .col {
     margin: 5% 0 0 3.3%;
   }
