@@ -14,13 +14,16 @@ body {
 }
 
 h1, h2, h3 {
+  color: $color-heading;
+  font-family: $font-family-heading;
   line-height: 1.2;
 }
-h1, h2, h3, .contact > p {
-  color: #78817a;
+figcaption {
+  font-family: $font-family-heading;
+  font-weight: $font-weight-heading;
 }
 h1 > span, h2, h3 {
-  font-weight: 400;
+  font-weight: $font-weight-heading;
 }
 h1, h2, figure, ul {
   margin: 0;
@@ -62,7 +65,6 @@ figcaption {
 }
 ul {
   padding-left: 7%;
-  font-family: 'Roboto Slab', serif;
 
   @include md-and-up {
     padding-left: 3%;

@@ -13,9 +13,9 @@ button {
   border: 1px solid #727272;
   border-radius: 0.5rem;
   color: #727272;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-family-heading;
   font-size: $font-size-body;
-  font-weight: 400;
+  font-weight: $font-weight-heading;
 }
 button:hover {
   border-color: #3BAF65;
