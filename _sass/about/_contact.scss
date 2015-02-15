@@ -1,0 +1,37 @@
+.contact {
+  margin-top: 10%;
+}
+.contact ul {
+  padding: 0;
+  text-align: center;
+}
+.contact > p {
+  margin: 0;
+  font-size: 1.4rem;
+}
+.contact li {
+  display: inline-block;
+}
+.contact li + li {
+  margin-left: 1.5rem;
+}
+.contact a {
+  color: #99a599;
+}
+.contact a:hover {
+  color: #737B73;
+}
+.contact i {
+  font-size: 3rem;
+}
+header .contact a {
+  color: #99a599;
+}
+footer .contact {
+  text-align: center;
+}
+.contact .footer_source {
+  margin-top: 4%;
+  font-size: 1.3rem;
+  color: #99a599;
+}

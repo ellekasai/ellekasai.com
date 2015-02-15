@@ -23,3 +23,32 @@ section p {
 footer {
   background-color: #dae2dd;
 }
+.header_inner {
+  padding: 10% 5% 85%;
+  box-sizing: border-box;
+}
+section.bg-story {
+  width: 100%;
+  padding-bottom: 75%;
+  background: url("/images/about/sales-white.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+#js-after {
+  display: none;
+}
+.bg-story.bg-none {
+  background: none;
+  padding: 10% 0 0;
+}
+.story_img {
+  margin: 10% 0 0;
+  text-align: center;
+}
+.story_img img {
+  display: inline;
+  width: 50%;
+  border-radius: 50%;
+}
+.hello h2 {
+  margin-bottom: 5%;
+}
