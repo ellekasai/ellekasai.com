@@ -132,12 +132,6 @@ section.bg-story {
   }
 
   h2 {
-    margin-bottom: 5%;
-
-    @include md-and-up {
-      margin-bottom: 4%;
-    }
-
     @include lg-and-up {
       text-align: center;
     }
@@ -147,7 +141,6 @@ section.bg-story {
 .events {
   h2 {
     @include lg-and-up {
-      margin-bottom: 3%;
       text-align: center;
     }
   }

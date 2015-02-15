@@ -25,8 +25,11 @@ figcaption {
 h2, h3 {
   font-weight: $font-weight-heading;
 }
-h1, figure, ul {
+h1, ul {
   margin: 0;
+}
+figure {
+  margin: 0 0 1.25em;
 }
 h1 {
   font-size: $font-size-h1;
@@ -43,15 +46,12 @@ h1 {
   }
 }
 h2 {
-  font-size: $font-size-h2;
   margin: 0 0 0.75em;
+  font-size: $font-size-h2;
 }
 h3 {
-  margin: 5% 0 0;
+  margin: 0 0 0.75em;
   font-size: $font-size-h3;
-}
-h3 + p {
-  margin: 3% 0 0;
 }
 iframe {
   margin: 3% 0 0 0%;
