@@ -94,23 +94,31 @@
 .col-sm p > span {
   color: #aaa;
 }
-.col-sm_images img {
-  width: 50%;
-  margin: 0 auto;
-  border-radius: 50%;
-
+.col-sm_images {
   @include md-and-up {
-    width: 70%;
-  }
-
-  @include lg-and-up {
-    width: 80%;
-  }
-}
-.col-sm_images + .col-sm_images {
-  margin-top: 10%;
-
-  @include md-and-up {
+    width: 28%;
     margin-top: 5%;
+  }
+
+  img {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+
+    @include md-and-up {
+      width: 70%;
+    }
+
+    @include lg-and-up {
+      width: 80%;
+    }
+  }
+
+  & + & {
+    margin-top: 10%;
+
+    @include md-and-up {
+      margin-top: 5%;
+    }
   }
 }

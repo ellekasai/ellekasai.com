@@ -1,5 +1,9 @@
 .contact {
   margin-top: 10%;
+
+  @include lg-and-up {
+    width: 60%;
+  }
 }
 .contact ul {
   padding: 0;
@@ -11,6 +15,10 @@
 
   @include md-and-up {
     font-size: 1.8rem;
+  }
+
+  @include md-and-up {
+    font-size: 2rem;
   }
 }
 .contact li {
