@@ -8,9 +8,12 @@ header {
   }
 }
 main,
-footer,
-section.bg-story {
+footer {
   padding: 10% 0;
+
+  @include lg-and-up {
+    padding: 5% 0;
+  }
 }
 section,
 footer .contact,
@@ -24,6 +27,10 @@ footer .contact,
 }
 section + section {
   margin-top: 10%;
+
+  @include lg-and-up {
+    margin-top: 5%;
+  }
 }
 section p {
   font-family: 'Roboto Slab', serif;
@@ -39,15 +46,26 @@ footer {
   @include md-and-up {
     padding: 10% 10% 65%;
   }
+
+  @include lg-and-up {
+    padding: 8% 10%;
+  }
 }
 section.bg-story {
   width: 100%;
+  padding: 10% 0;
   padding-bottom: 75%;
   background: url("/images/about/sales-white.jpg") no-repeat bottom center;
   background-size: cover;
 
   @include md-and-up {
     padding-bottom: 60%;
+  }
+
+  @include lg-and-up {
+    padding: 5% 0;
+    background: url("/images/about/sales.jpg") no-repeat center 30%;
+    background-size: cover;
   }
 }
 #js-after {
@@ -56,10 +74,20 @@ section.bg-story {
 .bg-story.bg-none {
   background: none;
   padding: 10% 0 0;
+
+  @include lg-and-up {
+    background: url("/images/about/sales.jpg") no-repeat center center;
+    background-size: cover;
+    padding: 5% 0;
+  }
 }
 .story_img {
   margin: 10% 0 0;
   text-align: center;
+
+  @include lg-and-up {
+    display: none;
+  }
 }
 .story_img img {
   display: inline;

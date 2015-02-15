@@ -88,17 +88,6 @@
 ———————————–———————————–*/
 
 @include lg-and-up {
-  main,
-  footer,
-  section.bg-story {
-    padding: 5% 0;
-  }
-  section + section {
-    margin-top: 5%;
-  }
-  .header_inner {
-    padding: 8% 10%;
-  }
   .row {
     margin: -3% 0 0 -3.3%;
   }
@@ -155,22 +144,10 @@
   header .contact p {
     color: #78817a;
   }
-  section.bg-story {
-    background: url("/images/about/sales.jpg") no-repeat center 30%;
-    background-size: cover;
-  }
-  .bg-story.bg-none {
-    background: url("/images/about/sales.jpg") no-repeat center center;
-    background-size: cover;
-    padding: 5% 0;
-  }
   .bg-story_content {
     float: right;
     width: 50%;
     margin-right: 3%;
-  }
-  .story_img {
-    display: none;
   }
 }
 
