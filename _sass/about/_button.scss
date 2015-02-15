@@ -10,14 +10,15 @@ button {
   width: 100%;
   padding: 5% 10%;
   background-color: rgba(255,255,255,0.2);
-  border: 1px solid #727272;
+  border: 1px solid $color-body;
   border-radius: 0.5rem;
-  color: #727272;
+  color: $color-body;
   font-family: $font-family-heading;
   font-size: $font-size-body;
   font-weight: $font-weight-heading;
-}
-button:hover {
-  border-color: #3BAF65;
-  color: #3BAF65;
+
+  &:hover, &:focus {
+    border-color: $color-link-hover;
+    color: $color-link-hover;
+  }
 }

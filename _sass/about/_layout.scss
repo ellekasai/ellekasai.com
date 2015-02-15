@@ -20,6 +20,7 @@ header {
 }
 
 .header__title {
+  // Use 60% to avoid covering my face on large screen
   @include lg-and-up {
     width: 60%;
   }

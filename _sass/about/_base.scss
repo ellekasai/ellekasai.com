@@ -1,18 +1,17 @@
 html {
   font-size: $font-size-base;
+
   @include md-and-up {
     font-size: $font-size-base-md-up;
   }
 }
-
 body {
-  color: #727272;
+  color: $color-body;
   font-family: $font-family-body;
   font-size: $font-size-body;
   font-weight: $font-weight-body;
   line-height: 1.6;
 }
-
 h1, h2, h3 {
   color: $color-heading;
   font-family: $font-family-heading;
@@ -38,24 +37,16 @@ h3 {
   font-size: $font-size-h3;
   font-weight: $font-weight-heading;
 }
-figure {
-  margin: 0 0 1.25em;
-}
-figcaption {
-  color: #99a599;
-  font-family: $font-family-heading;
-  font-weight: $font-weight-heading;
-  text-align: center;
-}
 img {
   display: block;
   width: 100%;
   height: auto;
 }
 a {
-  color: #3BAF65;
+  color: $color-link;
   text-decoration: none;
-}
-a:hover {
-  color: #2A7B47;
+
+  &:hover, &:focus {
+    color: $color-link-hover;
+  }
 }
