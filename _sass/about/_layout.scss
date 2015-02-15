@@ -1,0 +1,25 @@
+header {
+  background: url("/images/about/ellekasai-mobile.jpg") no-repeat bottom center;
+  background-size: cover;
+}
+main,
+footer,
+section.bg-story {
+  padding: 10% 0;
+}
+section,
+footer .contact,
+.bg-story_inner {
+  width: 90%;
+  margin: 0 auto;
+}
+section + section {
+  margin-top: 10%;
+}
+section p {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 300;
+}
+footer {
+  background-color: #dae2dd;
+}
