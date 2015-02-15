@@ -86,6 +86,13 @@ section.bg-story {
     max-width: 100%;
   }
 }
+.bg-story_content {
+  @include lg-and-up {
+    float: right;
+    width: 50%;
+    margin-right: 3%;
+  }
+}
 #js-after {
   display: none;
 }

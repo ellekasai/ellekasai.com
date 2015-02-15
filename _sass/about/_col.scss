@@ -41,7 +41,12 @@
     margin-left: 0;
   }
 }
-
+.hello .row,
+.col.col-lg {
+  @include lg-and-up {
+    margin-left: 0;
+  }
+}
 .col {
   float: left;
   width: 100%;
@@ -140,5 +145,12 @@
     @include md-and-up {
       margin-top: 5%;
     }
+  }
+}
+.col-sm.col-sm_images {
+  @include lg-and-up {
+    clear: none;
+    width: 16%;
+    margin: 8% 0 0 3.8%;
   }
 }

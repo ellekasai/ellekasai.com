@@ -3,10 +3,6 @@
 
 @charset "UTF-8";
 
-/*———————————–———————————–
-  For Mobile
-———————————–———————————–*/
-
 @import "about/variables";
 @import "about/mixins";
 @import "about/base";
@@ -15,24 +11,3 @@
 @import "about/animation";
 @import "about/col";
 @import "about/contact";
-
-/*———————————–———————————–
-  For Desktop
-———————————–———————————–*/
-
-@include lg-and-up {
-  .hello .row,
-  .col.col-lg {
-    margin-left: 0;
-  }
-  .col-sm.col-sm_images {
-    clear: none;
-    width: 16%;
-    margin: 8% 0 0 3.8%;
-  }
-  .bg-story_content {
-    float: right;
-    width: 50%;
-    margin-right: 3%;
-  }
-}
