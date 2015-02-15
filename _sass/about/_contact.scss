@@ -11,15 +11,6 @@
 }
 .contact > p {
   margin: 0;
-  font-size: 1.4rem;
-
-  @include md-and-up {
-    font-size: 1.8rem;
-  }
-
-  @include md-and-up {
-    font-size: 2rem;
-  }
 }
 .contact li {
   display: inline-block;
@@ -34,11 +25,7 @@
   color: #737B73;
 }
 .contact i {
-  font-size: 3rem;
-
-  @include md-and-up {
-    font-size: 4rem;
-  }
+  font-size: $font-size-h2;
 }
 header {
   .contact {
@@ -58,6 +45,6 @@ footer .contact {
 }
 .contact .footer_source {
   margin-top: 4%;
-  font-size: 1.3rem;
+  font-size: $font-size-small;
   color: #99a599;
 }

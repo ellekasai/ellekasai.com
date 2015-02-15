@@ -7,8 +7,9 @@ html {
 
 body {
   color: #727272;
-  font-family: "Roboto", sans-serif;
+  font-family: $font-family-body;
   font-size: $font-size-body;
+  font-weight: $font-weight-body;
   line-height: 1.6;
 }
 
