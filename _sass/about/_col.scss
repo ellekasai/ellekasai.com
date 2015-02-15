@@ -127,7 +127,7 @@
 
   img {
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 1em;
     border-radius: 50%;
 
     @include md-and-up {
