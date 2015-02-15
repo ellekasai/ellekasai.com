@@ -40,8 +40,18 @@
     font-size: 4rem;
   }
 }
-header .contact a {
-  color: #99a599;
+header {
+  .contact {
+    a {
+      color: #99a599;
+    }
+
+    > ul {
+      @include md-and-up {
+        text-align: left;
+      }
+    }
+  }
 }
 footer .contact {
   text-align: center;

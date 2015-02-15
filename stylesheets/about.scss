@@ -21,10 +21,6 @@
 ———————————–———————————–*/
 
 @include md-and-up {
-  .col-sm_images {
-    width: 28%;
-    margin-top: 5%;
-  }
   .bg-story_inner > .row,
   .bg-story_inner > .row > .col {
     margin-left: 0;
@@ -36,9 +32,6 @@
   .bg-story .col,
   .hello .col-lg {
     margin-left: 0;
-  }
-  header .contact > ul {
-    text-align: left;
   }
 }
 
@@ -66,9 +59,6 @@
     clear: none;
     width: 16%;
     margin: 8% 0 0 3.8%;
-  }
-  header .contact p {
-    color: #78817a;
   }
   .bg-story_content {
     float: right;
