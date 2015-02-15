@@ -22,6 +22,26 @@
 .bg-story_inner:after {
   clear:both;
 }
+
+.bg-story_inner > .row,
+.bg-story_inner > .row > .col {
+  @include md-and-up {
+    margin-left: 0;
+  }
+}
+.bg-story .row,
+.hello .row {
+  @include md-and-up {
+    margin-left: 0;
+  }
+}
+.bg-story .col,
+.hello .col-lg {
+  @include md-and-up {
+    margin-left: 0;
+  }
+}
+
 .col {
   float: left;
   width: 100%;

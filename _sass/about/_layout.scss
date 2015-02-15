@@ -112,10 +112,38 @@ section.bg-story {
   width: 50%;
   border-radius: 50%;
 }
-.hello h2 {
-  margin-bottom: 5%;
+.hello {
+  @include lg-and-up {
+    width: 46%;
+  }
 
-  @include md-and-up {
-    margin-bottom: 4%;
+  @include xl-and-up {
+    max-width: 60rem;
+  }
+
+  h2 {
+    margin-bottom: 5%;
+
+    @include md-and-up {
+      margin-bottom: 4%;
+    }
+
+    @include lg-and-up {
+      text-align: center;
+    }
+  }
+}
+
+.events {
+  h2 {
+    @include lg-and-up {
+      margin-bottom: 3%;
+      text-align: center;
+    }
+  }
+  p {
+    @include lg-and-up {
+      text-align: center;
+    }
   }
 }
