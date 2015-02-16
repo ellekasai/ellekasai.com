@@ -59,7 +59,6 @@ section + section {
 }
 .header_inner {
   padding: 10% 5% 85%;
-  box-sizing: border-box;
 
   @include md-and-up {
     padding: 10% 10% 65%;
@@ -135,7 +134,7 @@ section.bg-story {
   }
 
   @include xl-and-up {
-    max-width: 60rem;
+    max-width: 36rem;
   }
 
   h2 {
