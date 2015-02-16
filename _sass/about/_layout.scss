@@ -7,12 +7,12 @@
 
 .header {
   background-image: url("/images/about/ellekasai-mobile.jpg");
-  background-repeat: no-repeat;
   background-position: center bottom;
+  background-repeat: no-repeat;
   background-size: cover;
 
   @include lg-and-up {
-    background: url("/images/about/ellekasai.jpg");
+    background-image: url("/images/about/ellekasai.jpg");
     background-position: right 20%;
   }
 }
@@ -68,11 +68,6 @@ section + section {
   @include lg-and-up {
     padding-top: 8%;
     padding-bottom: 8%;
-  }
-
-  @include xl-and-up {
-    max-width: 67rem;
-    margin: 0 auto;
   }
 }
 section.bg-story {
