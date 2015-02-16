@@ -4,7 +4,6 @@
   font-weight: $font-weight-heading;
 }
 
-
 .header {
   background-image: url("/images/about/ellekasai-mobile.jpg");
   background-position: center bottom;
@@ -17,12 +16,24 @@
   }
 }
 
+.header__inner {
+  padding-top: 10%;
+  padding-bottom: 85%;
+
+  @include md-and-up {
+    padding-bottom: 65%;
+  }
+
+  @include lg-and-up {
+    // Use 60% to avoid covering my face on large screen
+    width: 60%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+}
+
 .header__title {
   margin-bottom: 1.5em;
-  // Use 60% to avoid covering my face on large screen
-  @include lg-and-up {
-    width: 60%;
-  }
 }
 
 main,
@@ -56,19 +67,6 @@ section + section {
 }
 .footer {
   background-color: #dae2dd;
-}
-.header_inner {
-  padding-top: 10%;
-  padding-bottom: 85%;
-
-  @include md-and-up {
-    padding-bottom: 65%;
-  }
-
-  @include lg-and-up {
-    padding-top: 8%;
-    padding-bottom: 8%;
-  }
 }
 section.bg-story {
   width: 100%;
