@@ -9,12 +9,4 @@
       margin-left: 1em;
     }
   }
-
-  a {
-    color: $color-light-link;
-
-    &:hover, &:focus {
-      color: $color-light-link-hover;
-    }
-  }
 }

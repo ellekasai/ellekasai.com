@@ -1,9 +1,4 @@
-.footer {
-  @extend %header-footer-common;
-  background-color: #dae2dd;
-}
-main,
-.footer {
+main {
   padding: 10% 0;
 
   @include lg-and-up {
@@ -11,7 +6,6 @@ main,
   }
 }
 section,
-.footer .contact,
 .bg-story_inner {
   width: 90%;
   margin: 0 auto;

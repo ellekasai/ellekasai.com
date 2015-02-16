@@ -1,0 +1,12 @@
+.footer {
+  @extend %header-footer-common;
+  background-color: #dae2dd;
+}
+.footer__inner {
+  padding: 10% 0;
+  text-align: center;
+
+  @include lg-and-up {
+    padding: 5% 0;
+  }
+}

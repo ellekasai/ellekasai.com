@@ -2,4 +2,12 @@
   color: $color-heading;
   font-family: $font-family-heading;
   font-weight: $font-weight-heading;
+
+  a {
+    color: $color-light-link;
+
+    &:hover, &:focus {
+      color: $color-light-link-hover;
+    }
+  }
 }
