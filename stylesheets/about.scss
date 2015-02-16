@@ -5,13 +5,15 @@
 
 @import "about/variables";
 @import "about/mixins";
+@import "about/placeholders";
 @import "about/base";
-@import "about/container";
-@import "about/layout";
-@import "about/button";
-@import "about/animation";
-@import "about/col";
-@import "about/contact";
-@import "about/gallery-item";
 @import "about/text";
+@import "about/layout";
+@import "about/header";
+@import "about/container";
+@import "about/col";
+@import "about/button";
+@import "about/contact";
 @import "about/social-links";
+@import "about/gallery-item";
+@import "about/animation";

@@ -1,8 +1,5 @@
-figure {
-  margin: 0 0 1.25em;
-}
-figcaption {
+%header-footer-common {
+  color: $color-heading;
   font-family: $font-family-heading;
   font-weight: $font-weight-heading;
-  text-align: center;
 }
