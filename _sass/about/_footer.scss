@@ -3,10 +3,10 @@
   background-color: #dae2dd;
 }
 .footer__inner {
-  padding: 10% 0;
+  padding: 5rem 0;
   text-align: center;
-
-  @include lg-and-up {
-    padding: 5% 0;
-  }
+}
+.footer__source {
+  color: $color-light-link;
+  font-size: $font-size-small;
 }
