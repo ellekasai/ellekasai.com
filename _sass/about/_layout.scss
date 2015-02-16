@@ -58,20 +58,21 @@ section + section {
   background-color: #dae2dd;
 }
 .header_inner {
-  padding: 10% 5% 85%;
+  padding-top: 10%;
+  padding-bottom: 85%;
 
   @include md-and-up {
-    padding: 10% 10% 65%;
+    padding-bottom: 65%;
   }
 
   @include lg-and-up {
-    padding: 8% 10%;
+    padding-top: 8%;
+    padding-bottom: 8%;
   }
 
   @include xl-and-up {
     max-width: 67rem;
     margin: 0 auto;
-    padding: 8% 0;
   }
 }
 section.bg-story {
