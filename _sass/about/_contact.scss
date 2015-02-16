@@ -1,6 +1,4 @@
 .contact {
-  margin-top: 10%;
-
   @include lg-and-up {
     width: 60%;
   }
@@ -25,7 +23,7 @@
 .contact i {
   font-size: $font-size-h2;
 }
-header {
+.header {
   .contact {
     a {
       color: #99a599;
@@ -38,7 +36,7 @@ header {
     }
   }
 }
-footer .contact {
+.footer .contact {
   text-align: center;
 }
 .contact .footer_source {

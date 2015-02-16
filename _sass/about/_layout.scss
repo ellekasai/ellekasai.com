@@ -1,25 +1,24 @@
-header, footer {
+.header, .footer {
   color: $color-heading;
   font-family: $font-family-heading;
   font-weight: $font-weight-heading;
 }
 
 
-header {
-  background: url("/images/about/ellekasai-mobile.jpg") no-repeat bottom center;
+.header {
+  background-image: url("/images/about/ellekasai-mobile.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
   background-size: cover;
 
   @include lg-and-up {
-    background: url("/images/about/ellekasai.jpg") no-repeat top right;
-    background-size: cover;
-  }
-
-  @include xl-and-up {
-    background-position: right 30%;
+    background: url("/images/about/ellekasai.jpg");
+    background-position: right 20%;
   }
 }
 
 .header__title {
+  margin-bottom: 1.5em;
   // Use 60% to avoid covering my face on large screen
   @include lg-and-up {
     width: 60%;
@@ -27,7 +26,7 @@ header {
 }
 
 main,
-footer {
+.footer {
   padding: 10% 0;
 
   @include lg-and-up {
@@ -35,7 +34,7 @@ footer {
   }
 }
 section,
-footer .contact,
+.footer .contact,
 .bg-story_inner {
   width: 90%;
   margin: 0 auto;
@@ -45,7 +44,7 @@ footer .contact,
   }
 
   @include xl-and-up {
-    max-width: 115rem;
+    max-width: 67rem;
   }
 }
 section + section {
@@ -55,7 +54,7 @@ section + section {
     margin-top: 5%;
   }
 }
-footer {
+.footer {
   background-color: #dae2dd;
 }
 .header_inner {
@@ -71,7 +70,7 @@ footer {
   }
 
   @include xl-and-up {
-    max-width: 115rem;
+    max-width: 67rem;
     margin: 0 auto;
     padding: 8% 0;
   }
