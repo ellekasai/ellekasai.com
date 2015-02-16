@@ -64,30 +64,3 @@
   width: 50%;
   border-radius: 50%;
 }
-.hello {
-  @include lg-and-up {
-    width: 46%;
-  }
-
-  @include xl-and-up {
-    max-width: 36rem;
-  }
-
-  h2 {
-    @include lg-and-up {
-      text-align: center;
-    }
-  }
-}
-.events {
-  h2 {
-    @include lg-and-up {
-      text-align: center;
-    }
-  }
-  p {
-    @include lg-and-up {
-      text-align: center;
-    }
-  }
-}
