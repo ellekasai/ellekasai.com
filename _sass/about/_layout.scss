@@ -3,7 +3,6 @@
   font-family: $font-family-heading;
   font-weight: $font-weight-heading;
 }
-
 .header {
   background-image: url("/images/about/ellekasai-mobile.jpg");
   background-position: center bottom;
@@ -15,7 +14,6 @@
     background-position: right 20%;
   }
 }
-
 .header__inner {
   padding-top: 10%;
   padding-bottom: 85%;
@@ -31,11 +29,9 @@
     padding-bottom: 8%;
   }
 }
-
 .header__title {
   margin-bottom: 1.5em;
 }
-
 main,
 .footer {
   padding: 10% 0;
@@ -137,7 +133,6 @@ section.bg-story {
     }
   }
 }
-
 .events {
   h2 {
     @include lg-and-up {
