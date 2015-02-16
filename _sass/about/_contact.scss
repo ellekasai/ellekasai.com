@@ -1,36 +1,3 @@
-.contact ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
-.contact li {
-  display: inline-block;
-}
-.contact li + li {
-  margin-left: 1em;
-}
-.contact a {
-  color: #99a599;
-}
-.contact a:hover {
-  color: #737B73;
-}
-.contact i {
-  font-size: $font-size-h2;
-}
-.header {
-  .contact {
-    a {
-      color: #99a599;
-    }
-
-    > ul {
-      @include md-and-up {
-        text-align: left;
-      }
-    }
-  }
-}
 .footer .contact {
   text-align: center;
 }

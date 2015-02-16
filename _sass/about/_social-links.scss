@@ -1,0 +1,20 @@
+.social-links {
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline-block;
+
+    + li {
+      margin-left: 1em;
+    }
+  }
+
+  a {
+    color: $color-light-link;
+
+    &:hover, &:focus {
+      color: $color-light-link-hover;
+    }
+  }
+}
