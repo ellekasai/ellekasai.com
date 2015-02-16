@@ -10,17 +10,20 @@
     background-position: right 20%;
   }
 }
+
 .header__inner {
   padding-top: 10%;
   padding-bottom: 85%;
 
   @include lg-and-up {
-    // Use 60% to avoid covering my face on large screen
-    width: 60%;
     padding-top: 8%;
     padding-bottom: 8%;
+
+    // Use 60% to avoid covering my face on large screen
+    width: 60%;
   }
 }
+
 .header__title {
   margin-bottom: 1.5em;
 }

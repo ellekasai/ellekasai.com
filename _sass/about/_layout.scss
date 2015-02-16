@@ -5,7 +5,7 @@ main {
     padding: 5% 0;
   }
 }
-section,
+.section,
 .bg-story_inner {
   width: 90%;
   margin: 0 auto;
@@ -18,14 +18,14 @@ section,
     max-width: 67rem;
   }
 }
-section + section {
+.section + .section {
   margin-top: 10%;
 
   @include lg-and-up {
     margin-top: 5%;
   }
 }
-section.bg-story {
+.section.bg-story {
   width: 100%;
   padding: 10% 0;
   padding-bottom: 75%;
