@@ -1,5 +1,6 @@
 .header {
   @extend %header-footer-common;
+  margin-bottom: 4rem;
   background-image: url("/images/about/ellekasai-mobile.jpg");
   background-position: center bottom;
   background-repeat: no-repeat;
