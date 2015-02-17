@@ -15,3 +15,15 @@
     @content;
   }
 }
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content:"";
+    display:block;
+    overflow:hidden;
+  }
+  &:after {
+    clear:both;
+  }
+}

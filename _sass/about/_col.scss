@@ -1,4 +1,5 @@
 .row {
+  @include clearfix;
   @include md-and-up {
     margin-left: -5%;
   }
@@ -6,15 +7,6 @@
   @include lg-and-up {
     margin: -3% 0 0 -3.3%;
   }
-}
-.row:before,
-.row:after {
-  content:"";
-  display:block;
-  overflow:hidden;
-}
-.row:after {
-  clear:both;
 }
 .col {
   float: left;
