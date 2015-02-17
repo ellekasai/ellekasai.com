@@ -1,0 +1,11 @@
+.story-section {
+  background-image: url("/images/about/sales-white.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  @include lg-and-up {
+    background-image: url("/images/about/sales.jpg");
+    background-position: center 30%;
+  }
+}

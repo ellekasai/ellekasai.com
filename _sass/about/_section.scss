@@ -10,6 +10,19 @@
     }
   }
 
+  &.section__inner--story {
+    padding-top: 5rem;
+
+    // Use 75% to avoid covering my face
+    padding-bottom: 75%;
+
+    @include lg-and-up {
+      width: 50%;
+      margin-left: auto;
+      padding-bottom: 5rem;
+    }
+  }
+
   &.section__inner--center-title h2 {
     @include lg-and-up {
       text-align: center;
@@ -21,4 +34,5 @@
       text-align: center;
     }
   }
+
 }
