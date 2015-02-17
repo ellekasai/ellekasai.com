@@ -5,7 +5,7 @@
 }
 
 @mixin md-only {
-  @media screen and (min-width: $md-screen-width) and (max-width: $lg-screen-width - 1) {
+  @media screen and (min-width: $md-screen-width) and (max-width: $lg-screen-width - 0.01em) {
     @content;
   }
 }
@@ -17,7 +17,7 @@
 }
 
 @mixin below-lg {
-  @media screen and (max-width: $lg-screen-width - 1) {
+  @media screen and (max-width: $lg-screen-width - 0.01em) {
     @content;
   }
 }
