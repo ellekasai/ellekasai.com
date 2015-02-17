@@ -1,8 +1,5 @@
-* {
-  box-sizing: border-box;
-}
-
 html {
+  box-sizing: border-box;
   font-size: $font-size-base;
 
   @include md-and-up {
@@ -10,18 +7,22 @@ html {
   }
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
   color: $color-body;
   font-family: $font-family-body;
   font-size: $font-size-body;
   font-weight: $font-weight-body;
-  line-height: 1.6;
+  line-height: $line-height-body;
 }
 
 h1, h2, h3 {
   color: $color-heading;
   font-family: $font-family-heading;
-  line-height: 1.2;
+  line-height: $line-height-heading;
 }
 
 h1 {
