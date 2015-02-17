@@ -1,0 +1,60 @@
+.row {
+  @include md-and-up {
+    @include clearfix;
+    margin-left: $col-gutter * -1;
+  }
+}
+
+.col {
+  @include md-and-up {
+    float: left;
+    margin-left: $col-gutter;
+  }
+
+  &.col--experience-intro {
+    @include md-only {
+      clear: both;
+      width: $col-full-width;
+    }
+
+    @include lg-and-up {
+      width: $col-third-width;
+    }
+  }
+
+  &.col--experience {
+    @include md-only {
+      width: $col-half-width;
+
+      &:nth-child(2n) {
+        clear: both;
+      }
+    }
+
+    @include lg-and-up {
+      width: $col-third-width;
+
+      &:nth-child(3n+1) {
+        clear: both;
+      }
+    }
+  }
+
+  &.col--event {
+    @include md-only {
+      width: $col-third-width;
+
+      &:nth-child(3n+1) {
+        clear: both;
+      }
+    }
+
+    @include lg-and-up {
+      width: $col-fifth-width;
+
+      &:nth-child(5n+1) {
+        clear: both;
+      }
+    }
+  }
+}

@@ -4,6 +4,12 @@
   }
 }
 
+@mixin md-only {
+  @media screen and (min-width: $md-screen-width) and (max-width: $lg-screen-width - 1) {
+    @content;
+  }
+}
+
 @mixin lg-and-up {
   @media screen and (min-width: $lg-screen-width) {
     @content;
