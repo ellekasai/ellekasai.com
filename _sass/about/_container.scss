@@ -1,0 +1,11 @@
+.container {
+  max-width: 95rem;
+  margin: 0 auto;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  @include md-and-up {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}

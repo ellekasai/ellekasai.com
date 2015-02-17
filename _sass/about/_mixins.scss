@@ -1,0 +1,35 @@
+@mixin md-and-up {
+  @media screen and (min-width: $md-screen-width) {
+    @content;
+  }
+}
+
+@mixin md-only {
+  @media screen and (min-width: $md-screen-width) and (max-width: $lg-screen-width - 0.01em) {
+    @content;
+  }
+}
+
+@mixin lg-and-up {
+  @media screen and (min-width: $lg-screen-width) {
+    @content;
+  }
+}
+
+@mixin below-lg {
+  @media screen and (max-width: $lg-screen-width - 0.01em) {
+    @content;
+  }
+}
+
+@mixin clearfix {
+  &:before,
+  &:after {
+    content:"";
+    display:block;
+    overflow:hidden;
+  }
+  &:after {
+    clear:both;
+  }
+}

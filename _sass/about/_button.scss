@@ -1,0 +1,15 @@
+button {
+  padding: 0.5em 2em;
+  background-color: rgba(255,255,255,0.2);
+  border: 1px solid $color-body;
+  border-radius: 0.5rem;
+  color: $color-body;
+  font-family: $font-family-heading;
+  font-size: $font-size-body;
+  font-weight: $font-weight-heading;
+
+  &:hover, &:focus {
+    border-color: $color-link-hover;
+    color: $color-link-hover;
+  }
+}

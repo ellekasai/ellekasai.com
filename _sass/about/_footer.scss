@@ -1,0 +1,14 @@
+.footer {
+  @extend %header-footer-common;
+  background-color: #dae2dd;
+}
+
+.footer__inner {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.footer__source {
+  color: $color-light-link;
+  font-size: $font-size-small;
+}

@@ -1,0 +1,50 @@
+.section {
+  margin-bottom: 4rem;
+}
+
+.section__inner {
+  &.section__inner--narrow {
+    @include lg-and-up {
+      width: 60%;
+      margin: 0 auto;
+    }
+  }
+
+  &.section__inner--story {
+    padding-top: 5rem;
+
+    // Use 75% to avoid covering my face
+    padding-bottom: 75%;
+
+    @include lg-and-up {
+
+      // Use 50% and push to right to avoid covering my face
+      width: 50%;
+      margin-left: auto;
+      padding-bottom: 5rem;
+    }
+
+    .story-section--is-expanded & {
+      @include below-lg {
+        padding-bottom: 0;
+      }
+      padding-bottom: 5rem;
+    }
+  }
+
+  &.section__inner--center-title h2 {
+    @include lg-and-up {
+      text-align: center;
+    }
+  }
+
+  &.section__inner--center-paragraph p {
+    @include lg-and-up {
+      text-align: center;
+    }
+  }
+}
+
+.section__header-figure {
+  margin: 0 0 1.25em;
+}
