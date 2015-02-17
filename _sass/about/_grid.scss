@@ -26,6 +26,7 @@
     @include md-only {
       width: $col-half-width;
 
+      // Use 2n because .col--experience-intro is there
       &:nth-child(2n) {
         clear: both;
       }
