@@ -44,10 +44,6 @@
     &:nth-child(8) {
       clear: both;
     }
-
-    > a:hover img {
-      opacity: 0.6;
-    }
   }
 
   @include lg-and-up {
@@ -72,20 +68,6 @@
   @include md-and-up {
     width: 28%;
     margin-top: 5%;
-  }
-
-  img {
-    width: 50%;
-    margin: 0 auto 1em;
-    border-radius: 50%;
-
-    @include md-and-up {
-      width: 70%;
-    }
-
-    @include lg-and-up {
-      width: 80%;
-    }
   }
 
   & + & {

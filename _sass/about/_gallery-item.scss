@@ -1,9 +1,25 @@
 .gallery-item__figure {
-  margin: 0 0 1.25em;
+  margin: 0;
 
   figcaption {
     font-family: $font-family-heading;
     font-weight: $font-weight-heading;
     text-align: center;
+  }
+}
+
+.gallery-item__image {
+  margin-bottom: 1.25em;
+
+
+  a:hover & {
+    opacity: 0.6;
+  }
+
+  &.gallery-item__image--event {
+    width: $circle-thumbnail-width;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
   }
 }
