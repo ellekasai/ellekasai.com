@@ -1,9 +1,9 @@
-figure {
+.gallery-item__figure {
   margin: 0 0 1.25em;
-}
 
-figcaption {
-  font-family: $font-family-heading;
-  font-weight: $font-weight-heading;
-  text-align: center;
+  figcaption {
+    font-family: $font-family-heading;
+    font-weight: $font-weight-heading;
+    text-align: center;
+  }
 }

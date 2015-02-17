@@ -68,12 +68,6 @@
     }
   }
 }
-.col-sm > a {
-  display: block;
-}
-.col-sm p > span {
-  color: #aaa;
-}
 .col-sm_images {
   @include md-and-up {
     width: 28%;
