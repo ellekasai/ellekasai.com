@@ -15,3 +15,17 @@
     }
   }
 }
+
+.story-section__footer {
+  margin: 2em 0 0;
+
+  @include lg-and-up {
+    display: none;
+  }
+
+  img {
+    width: $circle-thumbnail-width;
+    margin: 0 auto;
+    border-radius: 50%;
+  }
+}
