@@ -10,8 +10,8 @@
   }
 }
 
-@mixin xl-and-up {
-  @media screen and (min-width: $xl-screen-width) {
+@mixin below-lg {
+  @media screen and (max-width: $lg-screen-width - 1) {
     @content;
   }
 }

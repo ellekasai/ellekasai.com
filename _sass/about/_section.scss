@@ -21,6 +21,10 @@
       margin-left: auto;
       padding-bottom: 5rem;
     }
+
+    .story-section--is-expanded & {
+      padding-bottom: 5rem;
+    }
   }
 
   &.section__inner--center-title h2 {

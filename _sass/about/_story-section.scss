@@ -8,4 +8,10 @@
     background-image: url("/images/about/sales.jpg");
     background-position: center 30%;
   }
+
+  &.story-section--is-expanded {
+    @include below-lg {
+      background: none;
+    }
+  }
 }

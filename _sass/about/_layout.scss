@@ -1,16 +1,3 @@
-#js-after {
-  display: none;
-}
-.bg-story.bg-none {
-  background: none;
-  padding: 10% 0 0;
-
-  @include lg-and-up {
-    background: url("/images/about/sales.jpg") no-repeat center center;
-    background-size: cover;
-    padding: 5% 0;
-  }
-}
 .story_img {
   margin: 10% 0 0;
   text-align: center;
