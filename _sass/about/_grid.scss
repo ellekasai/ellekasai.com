@@ -42,18 +42,10 @@
   }
 
   &.col--event {
-    @include md-only {
+    @include md-and-up {
       width: $col-third-width;
 
       &:nth-child(3n+1) {
-        clear: both;
-      }
-    }
-
-    @include lg-and-up {
-      width: $col-fifth-width;
-
-      &:nth-child(5n+1) {
         clear: both;
       }
     }
