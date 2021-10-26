@@ -4,7 +4,7 @@
 # Number of posts displayed on the home page.
 num_home_posts: 3
 
-# Color scheme based on http://flatuicolors.com/.
+# Color scheme based on https://flatuicolors.com/.
 # Possible values:
 # - default
 # - dark
